@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#2b2f55" />
+    <title>BuilderSpace · UNSW</title>
+    <meta name="description" content="UNSW BuilderSpace：看活动、逛成员作品、找教程，找到加入的方式。" />
+    <link rel="preload" href="./assets/fonts/fusion-pixel-12px-proportional-zh_hans.otf.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" crossorigin src="./assets/site-DfA9cu4z.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/preload-helper-DIbePYYx.js">
+    <link rel="stylesheet" crossorigin href="./assets/site-Cw_62C83.css">
+  </head>
+  <body>
+    <!-- 官网：静态导航，不加载地图也能用。页头是游戏标题画面的静帧；最下面的“岛上一角”按需才载引擎。
+         内容在 src/content/（site.json、live/、sample/），改那里就行，不用碰这页。 -->
+    <header class="hero">
+      <img class="hero-art" src="./assets/title-art/loop/sunset-pier-loop-v7-poster.png" alt="暮色里的渡口：两个人站在栈桥尽头看海，远处灯塔守着晚霞。" width="1920" height="1080" />
+      <div class="hero-text">
+        <p class="kicker">UNSW 学生社团</p>
+        <h1>BuilderSpace</h1>
+        <p class="tagline" id="tagline">认识伙伴、交流想法、动手做东西，再拿出来给人看。</p>
+      </div>
+    </header>
+
+    <nav class="tabs" aria-label="主要入口">
+      <a href="#events">活动</a>
+      <a href="#projects">项目</a>
+      <a href="#resources">资源</a>
+      <a href="#about">关于与加入</a>
+      <a href="#corner" class="tab-corner">岛上一角</a>
+    </nav>
+
+    <main>
+      <section id="events" class="block" aria-labelledby="events-title">
+        <h2 id="events-title">活动</h2>
+        <div class="slot" data-slot="events"><p class="note">活动列表加载中…</p></div>
+      </section>
+      <section id="projects" class="block" aria-labelledby="projects-title">
+        <h2 id="projects-title">项目</h2>
+        <div class="slot" data-slot="projects"><p class="note">成员作品加载中…</p></div>
+      </section>
+      <section id="resources" class="block" aria-labelledby="resources-title">
+        <h2 id="resources-title">资源</h2>
+        <div class="slot" data-slot="resources"><p class="note">资源加载中…</p></div>
+      </section>
+      <section id="about" class="block" aria-labelledby="about-title">
+        <h2 id="about-title">关于与加入</h2>
+        <div class="slot" data-slot="about"><p class="note">加载中…</p></div>
+      </section>
+      <section id="corner" class="block corner" aria-labelledby="corner-title">
+        <h2 id="corner-title">岛上一角</h2>
+        <div class="slot" data-slot="corner"></div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p>
+        页头和“岛上一角”的画面来自像素游戏「四季终焉」。场景的地表、建筑、道具和人物来自 LimeZu 的 Modern Exteriors 与 Modern Interiors（<a href="https://limezu.itch.io/" target="_blank" rel="noopener noreferrer">limezu.itch.io</a>）；像素字 Fusion Pixel（OFL）。
+      </p>
+    </footer>
+
+  </body>
+</html>

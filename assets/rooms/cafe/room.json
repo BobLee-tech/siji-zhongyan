@@ -1,0 +1,75 @@
+{
+  "id": "cafe",
+  "name": { "zh": "咖啡馆", "en": "CAFÉ" },
+  "w": 16,
+  "h": 11,
+  "floor": "floor.png",
+  "solid": [
+    "1111111111111111",
+    "1111111111111111",
+    "1111111111111111",
+    "1111100000000001",
+    "1111100000011111",
+    "1000000000000001",
+    "1010000000000011",
+    "1111000000010001",
+    "1000010000111001",
+    "1100111001000111",
+    "1111111001111111"
+  ],
+  "things": [
+    { "key": "bar", "image": "things/bar.png", "x": 32, "y": 128, "w": 128, "h": 46, "frames": 1, "fps": 0 },
+    { "key": "stool-1", "image": "things/stool-1.png", "x": 38, "y": 154, "w": 32, "h": 28, "frames": 1, "fps": 0 },
+    { "key": "stool-2", "image": "things/stool-2.png", "x": 80, "y": 154, "w": 32, "h": 28, "frames": 1, "fps": 0 },
+    { "key": "stool-3", "image": "things/stool-3.png", "x": 122, "y": 154, "w": 32, "h": 28, "frames": 1, "fps": 0 },
+    { "key": "counter", "image": "things/counter.png", "x": 352, "y": 160, "w": 128, "h": 112, "frames": 6, "fps": 6 },
+    { "key": "menu", "image": "things/menu.png", "x": 290, "y": 320, "w": 28, "h": 36, "frames": 1, "fps": 0 },
+    { "key": "table-a", "image": "things/table-a.png", "x": 64, "y": 256, "w": 32, "h": 62, "frames": 1, "fps": 0 },
+    { "key": "chair-a1", "image": "things/chair-a1.png", "x": 32, "y": 250, "w": 32, "h": 42, "frames": 1, "fps": 0 },
+    { "key": "chair-a2", "image": "things/chair-a2.png", "x": 96, "y": 250, "w": 32, "h": 42, "frames": 1, "fps": 0 },
+    { "key": "table-b", "image": "things/table-b.png", "x": 160, "y": 320, "w": 32, "h": 62, "frames": 1, "fps": 0 },
+    { "key": "chair-b1", "image": "things/chair-b1.png", "x": 128, "y": 314, "w": 32, "h": 42, "frames": 1, "fps": 0 },
+    { "key": "chair-b2", "image": "things/chair-b2.png", "x": 192, "y": 314, "w": 32, "h": 42, "frames": 1, "fps": 0 },
+    { "key": "table-c", "image": "things/table-c.png", "x": 352, "y": 288, "w": 32, "h": 62, "frames": 1, "fps": 0 },
+    { "key": "chair-c1", "image": "things/chair-c1.png", "x": 320, "y": 282, "w": 32, "h": 42, "frames": 1, "fps": 0 },
+    { "key": "chair-c2", "image": "things/chair-c2.png", "x": 384, "y": 282, "w": 32, "h": 42, "frames": 1, "fps": 0 },
+    { "key": "records", "image": "things/records.png", "x": 416, "y": 320, "w": 64, "h": 72, "frames": 3, "fps": 4 },
+    { "key": "plant-1", "image": "things/plant-1.png", "x": 448, "y": 224, "w": 64, "h": 60, "frames": 1, "fps": 0 },
+    { "key": "plant-2", "image": "things/plant-2.png", "x": 32, "y": 320, "w": 64, "h": 62, "frames": 1, "fps": 0 }
+  ],
+  "spawn": { "x": 256, "y": 310, "dir": "up" },
+  "exit": [[7, 10], [8, 10]],
+  "interact": [
+    { "id": "board", "label": "看看留言板", "cells": [[5, 2], [6, 2], [7, 2]], "anchor": [208, 18] },
+    { "id": "chalkboard", "label": "在黑板上写一笔", "cells": [[8, 2], [9, 2]], "anchor": [300, 22] },
+    { "id": "counter", "label": "点一杯，聊两句", "cells": [[11, 4], [12, 4], [13, 4], [14, 4]], "anchor": [440, 94] },
+    { "id": "menu", "label": "看看今日菜单", "cells": [[9, 9]], "anchor": [304, 280] },
+    { "id": "records", "label": "换一张唱片", "cells": [[13, 9], [14, 9]], "anchor": [448, 254] }
+  ],
+  "seats": [
+    { "id": "window-1", "x": 54, "y": 150, "dir": "up" },
+    { "id": "window-2", "x": 96, "y": 150, "dir": "up" },
+    { "id": "window-3", "x": 138, "y": 150, "dir": "up" },
+    { "id": "table-a-1", "x": 48, "y": 252, "dir": "right" },
+    { "id": "table-a-2", "x": 112, "y": 252, "dir": "left" },
+    { "id": "table-b-1", "x": 144, "y": 316, "dir": "right" },
+    { "id": "table-b-2", "x": 208, "y": 316, "dir": "left" },
+    { "id": "table-c-1", "x": 336, "y": 284, "dir": "right" },
+    { "id": "table-c-2", "x": 400, "y": 284, "dir": "left" }
+  ],
+  "npcs": [
+    { "id": "barista", "x": 436, "y": 122, "dir": "down" }
+  ],
+  "windows": [
+    { "x": 44, "y": 30, "w": 42, "h": 26 },
+    { "x": 106, "y": 30, "w": 42, "h": 26 }
+  ],
+  "lights": [
+    { "x": 416, "y": 96, "r": 150, "color": "#ffd28c" },
+    { "x": 80, "y": 192, "r": 110, "color": "#ffd9a0" },
+    { "x": 176, "y": 256, "r": 110, "color": "#ffd9a0" },
+    { "x": 368, "y": 224, "r": 110, "color": "#ffd9a0" }
+  ],
+  "floorType": "wood",
+  "music": "cafe"
+}

@@ -1,0 +1,5150 @@
+{
+  "version": 4,
+  "characterCount": 19,
+  "variantCount": 1,
+  "frame": [
+    64,
+    64
+  ],
+  "feet": [
+    32,
+    62
+  ],
+  "portrait": [
+    64,
+    64
+  ],
+  "displayPortrait": [
+    128,
+    128
+  ],
+  "moods": [
+    "neutral",
+    "joy",
+    "concern",
+    "resolve",
+    "soft",
+    "amused",
+    "shy",
+    "puzzled",
+    "weary",
+    "hurt",
+    "wistful",
+    "relieved",
+    "warm",
+    "thoughtful"
+  ],
+  "characters": [
+    {
+      "id": "auri",
+      "name": "Auri",
+      "role": "把大家叫齐的人",
+      "colors": [
+        "#efbd5c",
+        "#efe4cf",
+        "#a8714a",
+        "#4f8180"
+      ],
+      "detail": "蜂蜜金长发与黑蝴蝶结延续双子辨识度。卷袖、纸角与海青布包，让热心和设计志向落在生活物件上。",
+      "actions": [
+        "招呼朋友",
+        "画夏日招牌",
+        "递出邀请",
+        "迈步出发",
+        "侧身认真听",
+        "欲言又止",
+        "累了歇一会儿",
+        "把邀请递近一点"
+      ],
+      "lines": [
+        "你来得正好。一起去海边看看？",
+        "人都到齐啦！今天还很长。",
+        "我好像又把安排排得太满了。",
+        "这次先听听你想做什么。"
+      ],
+      "kind": "lead",
+      "fullbody": "poses/auri-front.png",
+      "poses": [
+        "poses/auri-front.png",
+        "poses/auri-left.png",
+        "poses/auri-back.png",
+        "poses/auri-right.png",
+        "poses/auri-action-0.png",
+        "poses/auri-action-1.png",
+        "poses/auri-action-2.png",
+        "poses/auri-action-3.png",
+        "poses/auri-nuance-0.png",
+        "poses/auri-nuance-1.png",
+        "poses/auri-nuance-2.png",
+        "poses/auri-nuance-3.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/auri-neutral.png",
+        "joy": "portraits/auri-joy.png",
+        "concern": "portraits/auri-concern.png",
+        "resolve": "portraits/auri-resolve.png",
+        "soft": "portraits/auri-soft.png",
+        "amused": "portraits/auri-amused.png",
+        "shy": "portraits/auri-shy.png",
+        "puzzled": "portraits/auri-puzzled.png",
+        "weary": "portraits/auri-weary.png",
+        "hurt": "portraits/auri-hurt.png",
+        "wistful": "portraits/auri-wistful.png",
+        "relieved": "portraits/auri-relieved.png"
+      },
+      "source": "source/auri-atlas.png",
+      "actionType": "story-key-poses",
+      "directions": [
+        "down",
+        "left",
+        "up",
+        "right"
+      ],
+      "dialogue": {
+        "neutral": "你来得正好。一起去海边看看？",
+        "joy": "人都到齐啦！今天还很长。",
+        "concern": "我好像又把安排排得太满了。",
+        "resolve": "这次先听听你想做什么。",
+        "soft": "嗯，我听着呢。",
+        "amused": "你刚才是不是又把那块门牌扶正了？",
+        "shy": "这张画……其实也画了你。",
+        "puzzled": "你说的那个地方，是在桥的哪一边？",
+        "weary": "先坐一下。午饭好像又忘带了。",
+        "hurt": "我以为你会愿意的。是我没先问。",
+        "wistful": "那张分工表，我还没舍得收起来。",
+        "relieved": "少做一个摊位也没关系。我们去玩吧。"
+      },
+      "poseLabels": [
+        "正面",
+        "朝左",
+        "背面",
+        "朝右",
+        "招呼朋友",
+        "画夏日招牌",
+        "递出邀请",
+        "迈步出发",
+        "侧身认真听",
+        "欲言又止",
+        "累了歇一会儿",
+        "把邀请递近一点"
+      ],
+      "animation": {
+        "name": "听你说完，轻轻点头",
+        "sheet": "sheets/auri-listen.png",
+        "frames": [
+          "motion/auri-listen-0.png",
+          "motion/auri-listen-1.png",
+          "motion/auri-listen-2.png",
+          "motion/auri-listen-3.png"
+        ],
+        "frameSize": [
+          64,
+          64
+        ],
+        "durations": [
+          600,
+          200,
+          260,
+          650
+        ],
+        "rest": 1800,
+        "description": "倾听 → 低头 → 轻轻点头 → 抬眼回应；脚底对齐，停顿后再重复。"
+      },
+      "extraSources": [
+        "source/auri-nuance-atlas.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/auri.png",
+          "portrait": "seasonal/spring/auri-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/auri-spring.png",
+            "gameAtlas": "native/full/auri-spring.png",
+            "worldAtlas": "native/world/auri-spring.png",
+            "frameDirectory": "native/frames/auri/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/auri.png",
+          "portrait": "seasonal/summer/auri-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/auri-summer.png",
+            "gameAtlas": "native/full/auri-summer.png",
+            "worldAtlas": "native/world/auri-summer.png",
+            "frameDirectory": "native/frames/auri/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/auri.png",
+          "portrait": "seasonal/autumn/auri-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/auri-autumn.png",
+            "gameAtlas": "native/full/auri-autumn.png",
+            "worldAtlas": "native/world/auri-autumn.png",
+            "frameDirectory": "native/frames/auri/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/auri.png",
+          "portrait": "seasonal/winter/auri-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/auri-winter.png",
+            "gameAtlas": "native/full/auri-winter.png",
+            "worldAtlas": "native/world/auri-winter.png",
+            "frameDirectory": "native/frames/auri/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "nox",
+      "name": "Nox",
+      "role": "慢慢把东西做好的人",
+      "colors": [
+        "#463f4b",
+        "#d9a441",
+        "#6b7f89",
+        "#b08a64"
+      ],
+      "detail": "近黑发里的金色发丝与 Auri 呼应。炭灰衬衫、收好的领带和腰间工具袋，表现克制、耐心与手艺。",
+      "actions": [
+        "抬手招呼",
+        "检修灯具",
+        "递出修好的夹子",
+        "带着工具走路",
+        "低头专注检查",
+        "想说又停住",
+        "揉一揉酸肩",
+        "递出木作请你看看"
+      ],
+      "lines": [
+        "夹子修好了。你试一下。",
+        "这回总算合上了。",
+        "灯还要一天，我一个人有些忙不过来。",
+        "我想先跟师傅学一阵。是我自己想的。"
+      ],
+      "kind": "lead",
+      "fullbody": "poses/nox-front.png",
+      "poses": [
+        "poses/nox-front.png",
+        "poses/nox-left.png",
+        "poses/nox-back.png",
+        "poses/nox-right.png",
+        "poses/nox-action-0.png",
+        "poses/nox-action-1.png",
+        "poses/nox-action-2.png",
+        "poses/nox-action-3.png",
+        "poses/nox-nuance-0.png",
+        "poses/nox-nuance-1.png",
+        "poses/nox-nuance-2.png",
+        "poses/nox-nuance-3.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/nox-neutral.png",
+        "joy": "portraits/nox-joy.png",
+        "concern": "portraits/nox-concern.png",
+        "resolve": "portraits/nox-resolve.png",
+        "soft": "portraits/nox-soft.png",
+        "amused": "portraits/nox-amused.png",
+        "shy": "portraits/nox-shy.png",
+        "puzzled": "portraits/nox-puzzled.png",
+        "weary": "portraits/nox-weary.png",
+        "hurt": "portraits/nox-hurt.png",
+        "wistful": "portraits/nox-wistful.png",
+        "relieved": "portraits/nox-relieved.png"
+      },
+      "source": "source/nox-atlas.png",
+      "actionType": "story-key-poses",
+      "directions": [
+        "down",
+        "left",
+        "up",
+        "right"
+      ],
+      "dialogue": {
+        "neutral": "夹子修好了。你试一下。",
+        "joy": "这回总算合上了。",
+        "concern": "灯还要一天，我一个人有些忙不过来。",
+        "resolve": "我想先跟师傅学一阵。是我自己想的。",
+        "soft": "嗯。这样就很好。",
+        "amused": "不是鱼的问题，是浮标还差一点。",
+        "shy": "这个是专门给你做的。",
+        "puzzled": "这里应该还有一颗螺丝。",
+        "weary": "今天先到这儿吧。手有点酸。",
+        "hurt": "我也不是每次都能修好的。",
+        "wistful": "以后这张凳子，还给你留着。",
+        "relieved": "你愿意帮我扶一下，就够了。"
+      },
+      "poseLabels": [
+        "正面",
+        "朝左",
+        "背面",
+        "朝右",
+        "抬手招呼",
+        "检修灯具",
+        "递出修好的夹子",
+        "带着工具走路",
+        "低头专注检查",
+        "想说又停住",
+        "揉一揉酸肩",
+        "递出木作请你看看"
+      ],
+      "animation": {
+        "name": "抬眼倾听，缓慢点头",
+        "sheet": "sheets/nox-listen.png",
+        "frames": [
+          "motion/nox-listen-0.png",
+          "motion/nox-listen-1.png",
+          "motion/nox-listen-2.png",
+          "motion/nox-listen-3.png"
+        ],
+        "frameSize": [
+          64,
+          64
+        ],
+        "durations": [
+          600,
+          200,
+          260,
+          650
+        ],
+        "rest": 1800,
+        "description": "倾听 → 低头 → 轻轻点头 → 抬眼回应；脚底对齐，停顿后再重复。"
+      },
+      "extraSources": [
+        "source/nox-nuance-atlas.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/nox.png",
+          "portrait": "seasonal/spring/nox-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/nox-spring.png",
+            "gameAtlas": "native/full/nox-spring.png",
+            "worldAtlas": "native/world/nox-spring.png",
+            "frameDirectory": "native/frames/nox/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/nox.png",
+          "portrait": "seasonal/summer/nox-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/nox-summer.png",
+            "gameAtlas": "native/full/nox-summer.png",
+            "worldAtlas": "native/world/nox-summer.png",
+            "frameDirectory": "native/frames/nox/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/nox.png",
+          "portrait": "seasonal/autumn/nox-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/nox-autumn.png",
+            "gameAtlas": "native/full/nox-autumn.png",
+            "worldAtlas": "native/world/nox-autumn.png",
+            "frameDirectory": "native/frames/nox/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/nox.png",
+          "portrait": "seasonal/winter/nox-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/nox-winter.png",
+            "gameAtlas": "native/full/nox-winter.png",
+            "worldAtlas": "native/world/nox-winter.png",
+            "frameDirectory": "native/frames/nox/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "saku",
+      "name": "朔",
+      "role": "把风景记进本子的人",
+      "colors": [
+        "#3b405b",
+        "#59657b",
+        "#e9dfc6",
+        "#a78960"
+      ],
+      "detail": "墨蓝短发、旧海军蓝外套、普通布面本与短铅笔。减少装饰，留出拘谨的肩线；把本子交出去，是关系变化最明确的动作。",
+      "actions": [
+        "坐下写生",
+        "把岁时记交给你",
+        "眺望海面",
+        "抱着本子走路",
+        "抱本倾听",
+        "握笔欲言又止",
+        "轻轻合上本子",
+        "递出一封短笺"
+      ],
+      "lines": [
+        "这里的风，下午会换一个方向。",
+        "这页也留给你画。",
+        "以前搬走以后，我们一开始也天天联系。",
+        "下一封信，我先写。"
+      ],
+      "kind": "lead",
+      "fullbody": "poses/saku-front.png",
+      "poses": [
+        "poses/saku-front.png",
+        "poses/saku-left.png",
+        "poses/saku-back.png",
+        "poses/saku-right.png",
+        "poses/saku-action-0.png",
+        "poses/saku-action-1.png",
+        "poses/saku-action-2.png",
+        "poses/saku-action-3.png",
+        "poses/saku-nuance-0.png",
+        "poses/saku-nuance-1.png",
+        "poses/saku-nuance-2.png",
+        "poses/saku-nuance-3.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/saku-neutral.png",
+        "joy": "portraits/saku-joy.png",
+        "concern": "portraits/saku-concern.png",
+        "resolve": "portraits/saku-resolve.png",
+        "soft": "portraits/saku-soft.png",
+        "amused": "portraits/saku-amused.png",
+        "shy": "portraits/saku-shy.png",
+        "puzzled": "portraits/saku-puzzled.png",
+        "weary": "portraits/saku-weary.png",
+        "hurt": "portraits/saku-hurt.png",
+        "wistful": "portraits/saku-wistful.png",
+        "relieved": "portraits/saku-relieved.png"
+      },
+      "source": "source/saku-atlas.png",
+      "actionType": "story-key-poses",
+      "directions": [
+        "down",
+        "left",
+        "up",
+        "right"
+      ],
+      "dialogue": {
+        "neutral": "这里的风，下午会换一个方向。",
+        "joy": "这页也留给你画。",
+        "concern": "以前搬走以后，我们一开始也天天联系。",
+        "resolve": "下一封信，我先写。",
+        "soft": "我把这条路记下来了。",
+        "amused": "这次冰棒的排名，有一点变化。",
+        "shy": "这页……你也在里面。",
+        "puzzled": "我是不是又把地址看反了？",
+        "weary": "今天先不记了。一起坐会儿吧。",
+        "hurt": "你们决定的时候，我还没想好怎么说。",
+        "wistful": "原来我已经记得，哪扇门这个时候会开。",
+        "relieved": "这次我想把话说清楚。"
+      },
+      "poseLabels": [
+        "正面",
+        "朝左",
+        "背面",
+        "朝右",
+        "坐下写生",
+        "把岁时记交给你",
+        "眺望海面",
+        "抱着本子走路",
+        "抱本倾听",
+        "握笔欲言又止",
+        "轻轻合上本子",
+        "递出一封短笺"
+      ],
+      "animation": {
+        "name": "抱着本子，迟疑后点头",
+        "sheet": "sheets/saku-listen.png",
+        "frames": [
+          "motion/saku-listen-0.png",
+          "motion/saku-listen-1.png",
+          "motion/saku-listen-2.png",
+          "motion/saku-listen-3.png"
+        ],
+        "frameSize": [
+          64,
+          64
+        ],
+        "durations": [
+          600,
+          200,
+          260,
+          650
+        ],
+        "rest": 1800,
+        "description": "倾听 → 低头 → 轻轻点头 → 抬眼回应；脚底对齐，停顿后再重复。"
+      },
+      "extraSources": [
+        "source/saku-nuance-atlas.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/saku.png",
+          "portrait": "seasonal/spring/saku-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/saku-spring.png",
+            "gameAtlas": "native/full/saku-spring.png",
+            "worldAtlas": "native/world/saku-spring.png",
+            "frameDirectory": "native/frames/saku/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/saku.png",
+          "portrait": "seasonal/summer/saku-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/saku-summer.png",
+            "gameAtlas": "native/full/saku-summer.png",
+            "worldAtlas": "native/world/saku-summer.png",
+            "frameDirectory": "native/frames/saku/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/saku.png",
+          "portrait": "seasonal/autumn/saku-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/saku-autumn.png",
+            "gameAtlas": "native/full/saku-autumn.png",
+            "worldAtlas": "native/world/saku-autumn.png",
+            "frameDirectory": "native/frames/saku/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/saku.png",
+          "portrait": "seasonal/winter/saku-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/saku-winter.png",
+            "gameAtlas": "native/full/saku-winter.png",
+            "worldAtlas": "native/world/saku-winter.png",
+            "frameDirectory": "native/frames/saku/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "saku-female",
+      "name": "朔 · 女版",
+      "role": "把风景记进本子的人",
+      "colors": [
+        "#3b405b",
+        "#59657b",
+        "#e9dfc6",
+        "#a78960"
+      ],
+      "detail": "女版备选：墨蓝及肩短发，一侧轻别耳后，保留自然翘发与安静的神态。旧蓝外套、灰长裤、帆布鞋和布面岁时记延续原版，用发型、面部与姿态呈现女性气质。",
+      "actions": [
+        "坐下写生",
+        "把岁时记交给你",
+        "眺望海面",
+        "抱着本子走路",
+        "抱本倾听",
+        "握笔欲言又止",
+        "轻轻合上本子",
+        "递出一封短笺"
+      ],
+      "lines": [
+        "这里的风，下午会换一个方向。",
+        "这页也留给你画。",
+        "以前搬走以后，我们一开始也天天联系。",
+        "下一封信，我先写。"
+      ],
+      "variantOf": "saku",
+      "kind": "lead",
+      "fullbody": "poses/saku-female-front.png",
+      "poses": [
+        "poses/saku-female-front.png",
+        "poses/saku-female-left.png",
+        "poses/saku-female-back.png",
+        "poses/saku-female-right.png",
+        "poses/saku-female-action-0.png",
+        "poses/saku-female-action-1.png",
+        "poses/saku-female-action-2.png",
+        "poses/saku-female-action-3.png",
+        "poses/saku-female-nuance-0.png",
+        "poses/saku-female-nuance-1.png",
+        "poses/saku-female-nuance-2.png",
+        "poses/saku-female-nuance-3.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/saku-female-neutral.png",
+        "joy": "portraits/saku-female-joy.png",
+        "concern": "portraits/saku-female-concern.png",
+        "resolve": "portraits/saku-female-resolve.png",
+        "soft": "portraits/saku-female-soft.png",
+        "amused": "portraits/saku-female-amused.png",
+        "shy": "portraits/saku-female-shy.png",
+        "puzzled": "portraits/saku-female-puzzled.png",
+        "weary": "portraits/saku-female-weary.png",
+        "hurt": "portraits/saku-female-hurt.png",
+        "wistful": "portraits/saku-female-wistful.png",
+        "relieved": "portraits/saku-female-relieved.png"
+      },
+      "source": "source/saku-female-atlas.png",
+      "actionType": "story-key-poses",
+      "directions": [
+        "down",
+        "left",
+        "up",
+        "right"
+      ],
+      "dialogue": {
+        "neutral": "这里的风，下午会换一个方向。",
+        "joy": "这页也留给你画。",
+        "concern": "以前搬走以后，我们一开始也天天联系。",
+        "resolve": "下一封信，我先写。",
+        "soft": "我把这条路记下来了。",
+        "amused": "这次冰棒的排名，有一点变化。",
+        "shy": "这页……你也在里面。",
+        "puzzled": "我是不是又把地址看反了？",
+        "weary": "今天先不记了。一起坐会儿吧。",
+        "hurt": "你们决定的时候，我还没想好怎么说。",
+        "wistful": "原来我已经记得，哪扇门这个时候会开。",
+        "relieved": "这次我想把话说清楚。"
+      },
+      "poseLabels": [
+        "正面",
+        "朝左",
+        "背面",
+        "朝右",
+        "坐下写生",
+        "把岁时记交给你",
+        "眺望海面",
+        "抱着本子走路",
+        "抱本倾听",
+        "握笔欲言又止",
+        "轻轻合上本子",
+        "递出一封短笺"
+      ],
+      "animation": {
+        "name": "抱着本子，迟疑后点头",
+        "sheet": "sheets/saku-female-listen.png",
+        "frames": [
+          "motion/saku-female-listen-0.png",
+          "motion/saku-female-listen-1.png",
+          "motion/saku-female-listen-2.png",
+          "motion/saku-female-listen-3.png"
+        ],
+        "frameSize": [
+          64,
+          64
+        ],
+        "durations": [
+          600,
+          200,
+          260,
+          650
+        ],
+        "rest": 1800,
+        "description": "倾听 → 低头 → 轻轻点头 → 抬眼回应；脚底对齐，停顿后再重复。"
+      },
+      "extraSources": [
+        "source/saku-female-nuance-atlas.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/saku-female.png",
+          "portrait": "seasonal/spring/saku-female-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/saku-female-spring.png",
+            "gameAtlas": "native/full/saku-female-spring.png",
+            "worldAtlas": "native/world/saku-female-spring.png",
+            "frameDirectory": "native/frames/saku-female/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/saku-female.png",
+          "portrait": "seasonal/summer/saku-female-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/saku-female-summer.png",
+            "gameAtlas": "native/full/saku-female-summer.png",
+            "worldAtlas": "native/world/saku-female-summer.png",
+            "frameDirectory": "native/frames/saku-female/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/saku-female.png",
+          "portrait": "seasonal/autumn/saku-female-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/saku-female-autumn.png",
+            "gameAtlas": "native/full/saku-female-autumn.png",
+            "worldAtlas": "native/world/saku-female-autumn.png",
+            "frameDirectory": "native/frames/saku-female/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/saku-female.png",
+          "portrait": "seasonal/winter/saku-female-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/saku-female-winter.png",
+            "gameAtlas": "native/full/saku-female-winter.png",
+            "worldAtlas": "native/world/saku-female-winter.png",
+            "frameDirectory": "native/frames/saku-female/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "chinatsu",
+      "name": "千夏",
+      "role": "花箱与远行",
+      "detail": "低马尾、鼠尾草围裙与一盆小苗。照料日常，也有自己的学习计划。",
+      "colors": [
+        "#8b6650",
+        "#899776",
+        "#e9dfc6"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/chinatsu-front.png",
+      "poses": [
+        "poses/chinatsu-front.png",
+        "poses/chinatsu-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/chinatsu-neutral.png",
+        "warm": "portraits/chinatsu-warm.png",
+        "thoughtful": "portraits/chinatsu-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "蹲下移栽花苗"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "这盆长得慢，别急。",
+        "thoughtful": "出门前，得把浇水的事说清楚。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "蹲下移栽花苗"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/chinatsu.png",
+          "portrait": "seasonal/spring/chinatsu-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/chinatsu-spring.png",
+            "gameAtlas": "native/full/chinatsu-spring.png",
+            "worldAtlas": "native/world/chinatsu-spring.png",
+            "frameDirectory": "native/frames/chinatsu/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/chinatsu.png",
+          "portrait": "seasonal/summer/chinatsu-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/chinatsu-summer.png",
+            "gameAtlas": "native/full/chinatsu-summer.png",
+            "worldAtlas": "native/world/chinatsu-summer.png",
+            "frameDirectory": "native/frames/chinatsu/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/chinatsu.png",
+          "portrait": "seasonal/autumn/chinatsu-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/chinatsu-autumn.png",
+            "gameAtlas": "native/full/chinatsu-autumn.png",
+            "worldAtlas": "native/world/chinatsu-autumn.png",
+            "frameDirectory": "native/frames/chinatsu/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/chinatsu.png",
+          "portrait": "seasonal/winter/chinatsu-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/chinatsu-winter.png",
+            "gameAtlas": "native/full/chinatsu-winter.png",
+            "worldAtlas": "native/world/chinatsu-winter.png",
+            "frameDirectory": "native/frames/chinatsu/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "asumi",
+      "name": "阿澄",
+      "role": "图书室与植物小册",
+      "detail": "圆框眼镜、淡紫开衫和夹着叶片的小册；文静，但谈起植物很有主见。",
+      "colors": [
+        "#514255",
+        "#b1a2c1",
+        "#394a61"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/asumi-front.png",
+      "poses": [
+        "poses/asumi-front.png",
+        "poses/asumi-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/asumi-neutral.png",
+        "warm": "portraits/asumi-warm.png",
+        "thoughtful": "portraits/asumi-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "翻开植物小册"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "你看，这一页就能带着走。",
+        "thoughtful": "这个叶形，我还想再查一下。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "翻开植物小册"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/asumi.png",
+          "portrait": "seasonal/spring/asumi-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/asumi-spring.png",
+            "gameAtlas": "native/full/asumi-spring.png",
+            "worldAtlas": "native/world/asumi-spring.png",
+            "frameDirectory": "native/frames/asumi/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/asumi.png",
+          "portrait": "seasonal/summer/asumi-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/asumi-summer.png",
+            "gameAtlas": "native/full/asumi-summer.png",
+            "worldAtlas": "native/world/asumi-summer.png",
+            "frameDirectory": "native/frames/asumi/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/asumi.png",
+          "portrait": "seasonal/autumn/asumi-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/asumi-autumn.png",
+            "gameAtlas": "native/full/asumi-autumn.png",
+            "worldAtlas": "native/world/asumi-autumn.png",
+            "frameDirectory": "native/frames/asumi/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/asumi.png",
+          "portrait": "seasonal/winter/asumi-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/asumi-winter.png",
+            "gameAtlas": "native/full/asumi-winter.png",
+            "worldAtlas": "native/world/asumi-winter.png",
+            "frameDirectory": "native/frames/asumi/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "shio",
+      "name": "汐婆婆",
+      "role": "神社与家常",
+      "detail": "银发小髻、紫灰开衫与旧扫帚。表情保留皱纹与直率，避免全知长者的神秘装饰。",
+      "colors": [
+        "#c7c6ce",
+        "#8c6a84",
+        "#46516a"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/shio-front.png",
+      "poses": [
+        "poses/shio-front.png",
+        "poses/shio-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/shio-neutral.png",
+        "warm": "portraits/shio-warm.png",
+        "thoughtful": "portraits/shio-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "慢慢扫拢落叶"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "回来了？先坐。",
+        "thoughtful": "扫帚谁收的？我又找了一圈。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "慢慢扫拢落叶"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/shio.png",
+          "portrait": "seasonal/spring/shio-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/shio-spring.png",
+            "gameAtlas": "native/full/shio-spring.png",
+            "worldAtlas": "native/world/shio-spring.png",
+            "frameDirectory": "native/frames/shio/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/shio.png",
+          "portrait": "seasonal/summer/shio-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/shio-summer.png",
+            "gameAtlas": "native/full/shio-summer.png",
+            "worldAtlas": "native/world/shio-summer.png",
+            "frameDirectory": "native/frames/shio/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/shio.png",
+          "portrait": "seasonal/autumn/shio-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/shio-autumn.png",
+            "gameAtlas": "native/full/shio-autumn.png",
+            "worldAtlas": "native/world/shio-autumn.png",
+            "frameDirectory": "native/frames/shio/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/shio.png",
+          "portrait": "seasonal/winter/shio-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/shio-winter.png",
+            "gameAtlas": "native/full/shio-winter.png",
+            "worldAtlas": "native/world/shio-winter.png",
+            "frameDirectory": "native/frames/shio/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "aqian",
+      "name": "阿钳",
+      "role": "秘密基地的维护者",
+      "detail": "护目镜、皮实工装与安全绳；先让人看到他在做事，再看到他的热心。",
+      "colors": [
+        "#ad8053",
+        "#e9dfc6",
+        "#615449"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/aqian-front.png",
+      "poses": [
+        "poses/aqian-front.png",
+        "poses/aqian-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/aqian-neutral.png",
+        "warm": "portraits/aqian-warm.png",
+        "thoughtful": "portraits/aqian-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "检查安全绳"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "来，绳子先一起检查。",
+        "thoughtful": "这段磨毛了，今天得换。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "检查安全绳"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/aqian.png",
+          "portrait": "seasonal/spring/aqian-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/aqian-spring.png",
+            "gameAtlas": "native/full/aqian-spring.png",
+            "worldAtlas": "native/world/aqian-spring.png",
+            "frameDirectory": "native/frames/aqian/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/aqian.png",
+          "portrait": "seasonal/summer/aqian-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/aqian-summer.png",
+            "gameAtlas": "native/full/aqian-summer.png",
+            "worldAtlas": "native/world/aqian-summer.png",
+            "frameDirectory": "native/frames/aqian/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/aqian.png",
+          "portrait": "seasonal/autumn/aqian-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/aqian-autumn.png",
+            "gameAtlas": "native/full/aqian-autumn.png",
+            "worldAtlas": "native/world/aqian-autumn.png",
+            "frameDirectory": "native/frames/aqian/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/aqian.png",
+          "portrait": "seasonal/winter/aqian-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/aqian-winter.png",
+            "gameAtlas": "native/full/aqian-winter.png",
+            "worldAtlas": "native/world/aqian-winter.png",
+            "frameDirectory": "native/frames/aqian/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "lighthouse",
+      "name": "灯塔先生",
+      "role": "海岬的信与热茶",
+      "detail": "海军蓝针织衫、旧信与保温壶，用灯塔生活替换演示里借用的白大褂。",
+      "colors": [
+        "#434f6b",
+        "#c4c2bb",
+        "#d9c8a9"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/lighthouse-front.png",
+      "poses": [
+        "poses/lighthouse-front.png",
+        "poses/lighthouse-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/lighthouse-neutral.png",
+        "warm": "portraits/lighthouse-warm.png",
+        "thoughtful": "portraits/lighthouse-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "坐下写一封信"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "茶还热，坐一会儿。",
+        "thoughtful": "写两句，应该也不难吧。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "坐下写一封信"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/lighthouse.png",
+          "portrait": "seasonal/spring/lighthouse-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/lighthouse-spring.png",
+            "gameAtlas": "native/full/lighthouse-spring.png",
+            "worldAtlas": "native/world/lighthouse-spring.png",
+            "frameDirectory": "native/frames/lighthouse/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/lighthouse.png",
+          "portrait": "seasonal/summer/lighthouse-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/lighthouse-summer.png",
+            "gameAtlas": "native/full/lighthouse-summer.png",
+            "worldAtlas": "native/world/lighthouse-summer.png",
+            "frameDirectory": "native/frames/lighthouse/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/lighthouse.png",
+          "portrait": "seasonal/autumn/lighthouse-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/lighthouse-autumn.png",
+            "gameAtlas": "native/full/lighthouse-autumn.png",
+            "worldAtlas": "native/world/lighthouse-autumn.png",
+            "frameDirectory": "native/frames/lighthouse/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/lighthouse.png",
+          "portrait": "seasonal/winter/lighthouse-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/lighthouse-winter.png",
+            "gameAtlas": "native/full/lighthouse-winter.png",
+            "worldAtlas": "native/world/lighthouse-winter.png",
+            "frameDirectory": "native/frames/lighthouse/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "mai",
+      "name": "麦姐",
+      "role": "傍晚的一句回来啦",
+      "detail": "麦色烘焙帽、低饱和砖色围裙和面包篮；亲切从日常姿态里来。",
+      "colors": [
+        "#b37b56",
+        "#b57764",
+        "#eee0be"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/mai-front.png",
+      "poses": [
+        "poses/mai-front.png",
+        "poses/mai-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/mai-neutral.png",
+        "warm": "portraits/mai-warm.png",
+        "thoughtful": "portraits/mai-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "递来包好的面包"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "回来啦。留了一小块给你。",
+        "thoughtful": "明天的面团，还得早点揉。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "递来包好的面包"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/mai.png",
+          "portrait": "seasonal/spring/mai-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/mai-spring.png",
+            "gameAtlas": "native/full/mai-spring.png",
+            "worldAtlas": "native/world/mai-spring.png",
+            "frameDirectory": "native/frames/mai/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/mai.png",
+          "portrait": "seasonal/summer/mai-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/mai-summer.png",
+            "gameAtlas": "native/full/mai-summer.png",
+            "worldAtlas": "native/world/mai-summer.png",
+            "frameDirectory": "native/frames/mai/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/mai.png",
+          "portrait": "seasonal/autumn/mai-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/mai-autumn.png",
+            "gameAtlas": "native/full/mai-autumn.png",
+            "worldAtlas": "native/world/mai-autumn.png",
+            "frameDirectory": "native/frames/mai/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/mai.png",
+          "portrait": "seasonal/winter/mai-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/mai-winter.png",
+            "gameAtlas": "native/full/mai-winter.png",
+            "worldAtlas": "native/world/mai-winter.png",
+            "frameDirectory": "native/frames/mai/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "postman",
+      "name": "邮差阿信",
+      "role": "把人联系起来",
+      "detail": "蓝色邮帽、小黄铜信徽与斜挎邮袋；信封保持普通，不添加魔法或纹章。",
+      "colors": [
+        "#4e6487",
+        "#94afbe",
+        "#b68d5c"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/postman-front.png",
+      "poses": [
+        "poses/postman-front.png",
+        "poses/postman-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/postman-neutral.png",
+        "warm": "portraits/postman-warm.png",
+        "thoughtful": "portraits/postman-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "从邮袋取信"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "正好，这封是给你的。",
+        "thoughtful": "这条路要先绕过去，别把信弄湿了。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "从邮袋取信"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/postman.png",
+          "portrait": "seasonal/spring/postman-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/postman-spring.png",
+            "gameAtlas": "native/full/postman-spring.png",
+            "worldAtlas": "native/world/postman-spring.png",
+            "frameDirectory": "native/frames/postman/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/postman.png",
+          "portrait": "seasonal/summer/postman-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/postman-summer.png",
+            "gameAtlas": "native/full/postman-summer.png",
+            "worldAtlas": "native/world/postman-summer.png",
+            "frameDirectory": "native/frames/postman/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/postman.png",
+          "portrait": "seasonal/autumn/postman-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/postman-autumn.png",
+            "gameAtlas": "native/full/postman-autumn.png",
+            "worldAtlas": "native/world/postman-autumn.png",
+            "frameDirectory": "native/frames/postman/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/postman.png",
+          "portrait": "seasonal/winter/postman-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/postman-winter.png",
+            "gameAtlas": "native/full/postman-winter.png",
+            "worldAtlas": "native/world/postman-winter.png",
+            "frameDirectory": "native/frames/postman/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "angler",
+      "name": "钓鱼的大叔",
+      "role": "东浦的清晨",
+      "detail": "砖红针织帽、花白胡子、橄榄工作服和渔网，延续主游戏造型。",
+      "colors": [
+        "#a56355",
+        "#777b51",
+        "#d0c8b4"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/angler-front.png",
+      "poses": [
+        "poses/angler-front.png",
+        "poses/angler-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/angler-neutral.png",
+        "warm": "portraits/angler-warm.png",
+        "thoughtful": "portraits/angler-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "坐下补渔网"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "坐吧，网还要补一会儿。",
+        "thoughtful": "这处得留着原来的线。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "坐下补渔网"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/angler.png",
+          "portrait": "seasonal/spring/angler-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/angler-spring.png",
+            "gameAtlas": "native/full/angler-spring.png",
+            "worldAtlas": "native/world/angler-spring.png",
+            "frameDirectory": "native/frames/angler/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/angler.png",
+          "portrait": "seasonal/summer/angler-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/angler-summer.png",
+            "gameAtlas": "native/full/angler-summer.png",
+            "worldAtlas": "native/world/angler-summer.png",
+            "frameDirectory": "native/frames/angler/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/angler.png",
+          "portrait": "seasonal/autumn/angler-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/angler-autumn.png",
+            "gameAtlas": "native/full/angler-autumn.png",
+            "worldAtlas": "native/world/angler-autumn.png",
+            "frameDirectory": "native/frames/angler/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/angler.png",
+          "portrait": "seasonal/winter/angler-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/angler-winter.png",
+            "gameAtlas": "native/full/angler-winter.png",
+            "worldAtlas": "native/world/angler-winter.png",
+            "frameDirectory": "native/frames/angler/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "kid-a",
+      "name": "小满",
+      "role": "总想再试一次",
+      "detail": "栗色乱发、绿衣卡其短裤与小红领巾，身体比例比成人矮一截；球表现爱跑爱试。",
+      "colors": [
+        "#95704b",
+        "#7c8756",
+        "#bb715c"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/kid-a-front.png",
+      "poses": [
+        "poses/kid-a-front.png",
+        "poses/kid-a-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/kid-a-neutral.png",
+        "warm": "portraits/kid-a-warm.png",
+        "thoughtful": "portraits/kid-a-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "蹲下捡球"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "你看，我这次接住了！",
+        "thoughtful": "你不想玩球？那我们换一个。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "蹲下捡球"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/kid-a.png",
+          "portrait": "seasonal/spring/kid-a-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/kid-a-spring.png",
+            "gameAtlas": "native/full/kid-a-spring.png",
+            "worldAtlas": "native/world/kid-a-spring.png",
+            "frameDirectory": "native/frames/kid-a/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/kid-a.png",
+          "portrait": "seasonal/summer/kid-a-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/kid-a-summer.png",
+            "gameAtlas": "native/full/kid-a-summer.png",
+            "worldAtlas": "native/world/kid-a-summer.png",
+            "frameDirectory": "native/frames/kid-a/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/kid-a.png",
+          "portrait": "seasonal/autumn/kid-a-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/kid-a-autumn.png",
+            "gameAtlas": "native/full/kid-a-autumn.png",
+            "worldAtlas": "native/world/kid-a-autumn.png",
+            "frameDirectory": "native/frames/kid-a/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/kid-a.png",
+          "portrait": "seasonal/winter/kid-a-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/kid-a-winter.png",
+            "gameAtlas": "native/full/kid-a-winter.png",
+            "worldAtlas": "native/world/kid-a-winter.png",
+            "frameDirectory": "native/frames/kid-a/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "kid-b",
+      "name": "阿岚",
+      "role": "把贝壳仔细收好",
+      "detail": "深色双丸子、浅蓝上衣与白凉鞋。两手捧贝壳，动作朝身体内收。",
+      "colors": [
+        "#423c50",
+        "#9ac2d5",
+        "#d8978d"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/kid-b-front.png",
+      "poses": [
+        "poses/kid-b-front.png",
+        "poses/kid-b-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/kid-b-neutral.png",
+        "warm": "portraits/kid-b-warm.png",
+        "thoughtful": "portraits/kid-b-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "坐着整理贝壳"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "这个贝壳，颜色有一点不一样。",
+        "thoughtful": "今天……我想在岸边待着。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "坐着整理贝壳"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/kid-b.png",
+          "portrait": "seasonal/spring/kid-b-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/kid-b-spring.png",
+            "gameAtlas": "native/full/kid-b-spring.png",
+            "worldAtlas": "native/world/kid-b-spring.png",
+            "frameDirectory": "native/frames/kid-b/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/kid-b.png",
+          "portrait": "seasonal/summer/kid-b-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/kid-b-summer.png",
+            "gameAtlas": "native/full/kid-b-summer.png",
+            "worldAtlas": "native/world/kid-b-summer.png",
+            "frameDirectory": "native/frames/kid-b/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/kid-b.png",
+          "portrait": "seasonal/autumn/kid-b-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/kid-b-autumn.png",
+            "gameAtlas": "native/full/kid-b-autumn.png",
+            "worldAtlas": "native/world/kid-b-autumn.png",
+            "frameDirectory": "native/frames/kid-b/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/kid-b.png",
+          "portrait": "seasonal/winter/kid-b-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/kid-b-winter.png",
+            "gameAtlas": "native/full/kid-b-winter.png",
+            "worldAtlas": "native/world/kid-b-winter.png",
+            "frameDirectory": "native/frames/kid-b/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "guide",
+      "name": "向导",
+      "role": "渡口的第一声招呼",
+      "detail": "海青 polo、奶油长裤与折叠岛图，保留现有主游戏辨识度。",
+      "colors": [
+        "#4f9c9c",
+        "#e8dfc7",
+        "#624c42"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/guide-front.png",
+      "poses": [
+        "poses/guide-front.png",
+        "poses/guide-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/guide-neutral.png",
+        "warm": "portraits/guide-warm.png",
+        "thoughtful": "portraits/guide-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "展开地图指路"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "从这条路走，能看见海。",
+        "thoughtful": "我再确认一下，免得让你绕远。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "展开地图指路"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/guide.png",
+          "portrait": "seasonal/spring/guide-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/guide-spring.png",
+            "gameAtlas": "native/full/guide-spring.png",
+            "worldAtlas": "native/world/guide-spring.png",
+            "frameDirectory": "native/frames/guide/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/guide.png",
+          "portrait": "seasonal/summer/guide-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/guide-summer.png",
+            "gameAtlas": "native/full/guide-summer.png",
+            "worldAtlas": "native/world/guide-summer.png",
+            "frameDirectory": "native/frames/guide/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/guide.png",
+          "portrait": "seasonal/autumn/guide-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/guide-autumn.png",
+            "gameAtlas": "native/full/guide-autumn.png",
+            "worldAtlas": "native/world/guide-autumn.png",
+            "frameDirectory": "native/frames/guide/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/guide.png",
+          "portrait": "seasonal/winter/guide-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/guide-winter.png",
+            "gameAtlas": "native/full/guide-winter.png",
+            "worldAtlas": "native/world/guide-winter.png",
+            "frameDirectory": "native/frames/guide/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "walker",
+      "name": "散步的阿姨",
+      "role": "每天沿海岸走一圈",
+      "detail": "银白短发、淡紫花衬衫与舒适便鞋，轻便购物袋成为熟悉的小轮廓。",
+      "colors": [
+        "#c9c6c8",
+        "#ac97c9",
+        "#b8ab94"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/walker-front.png",
+      "poses": [
+        "poses/walker-front.png",
+        "poses/walker-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/walker-neutral.png",
+        "warm": "portraits/walker-warm.png",
+        "thoughtful": "portraits/walker-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "停步揉揉腰"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "走慢点，风正舒服。",
+        "thoughtful": "今天先歇一会儿，再走半圈。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "停步揉揉腰"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/walker.png",
+          "portrait": "seasonal/spring/walker-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/walker-spring.png",
+            "gameAtlas": "native/full/walker-spring.png",
+            "worldAtlas": "native/world/walker-spring.png",
+            "frameDirectory": "native/frames/walker/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/walker.png",
+          "portrait": "seasonal/summer/walker-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/walker-summer.png",
+            "gameAtlas": "native/full/walker-summer.png",
+            "worldAtlas": "native/world/walker-summer.png",
+            "frameDirectory": "native/frames/walker/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/walker.png",
+          "portrait": "seasonal/autumn/walker-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/walker-autumn.png",
+            "gameAtlas": "native/full/walker-autumn.png",
+            "worldAtlas": "native/world/walker-autumn.png",
+            "frameDirectory": "native/frames/walker/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/walker.png",
+          "portrait": "seasonal/winter/walker-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/walker-winter.png",
+            "gameAtlas": "native/full/walker-winter.png",
+            "worldAtlas": "native/world/walker-winter.png",
+            "frameDirectory": "native/frames/walker/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "gardener",
+      "name": "园丁",
+      "role": "慢悠悠照看花田",
+      "detail": "绿带草帽、灰白胡子与土棕背带裤，金属水壶增加职业动作的辨识度。",
+      "colors": [
+        "#d6be7b",
+        "#96a37f",
+        "#987853"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/gardener-front.png",
+      "poses": [
+        "poses/gardener-front.png",
+        "poses/gardener-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/gardener-neutral.png",
+        "warm": "portraits/gardener-warm.png",
+        "thoughtful": "portraits/gardener-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "俯身浇花"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "土湿了，叶子就精神了。",
+        "thoughtful": "这盆得挪一点，太阳太直。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "俯身浇花"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/gardener.png",
+          "portrait": "seasonal/spring/gardener-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/gardener-spring.png",
+            "gameAtlas": "native/full/gardener-spring.png",
+            "worldAtlas": "native/world/gardener-spring.png",
+            "frameDirectory": "native/frames/gardener/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/gardener.png",
+          "portrait": "seasonal/summer/gardener-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/gardener-summer.png",
+            "gameAtlas": "native/full/gardener-summer.png",
+            "worldAtlas": "native/world/gardener-summer.png",
+            "frameDirectory": "native/frames/gardener/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/gardener.png",
+          "portrait": "seasonal/autumn/gardener-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/gardener-autumn.png",
+            "gameAtlas": "native/full/gardener-autumn.png",
+            "worldAtlas": "native/world/gardener-autumn.png",
+            "frameDirectory": "native/frames/gardener/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/gardener.png",
+          "portrait": "seasonal/winter/gardener-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/gardener-winter.png",
+            "gameAtlas": "native/full/gardener-winter.png",
+            "worldAtlas": "native/world/gardener-winter.png",
+            "frameDirectory": "native/frames/gardener/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "keeper",
+      "name": "店主",
+      "role": "嘴上念叨，心里热乎",
+      "detail": "白衬衫、深绿长围裙与纸袋，小胡子和稳重站姿表现熟悉街坊的人。",
+      "colors": [
+        "#46654e",
+        "#efe6ce",
+        "#7d6046"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/keeper-front.png",
+      "poses": [
+        "poses/keeper-front.png",
+        "poses/keeper-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/keeper-neutral.png",
+        "warm": "portraits/keeper-warm.png",
+        "thoughtful": "portraits/keeper-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "折好纸袋"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "袋口折好了，提稳些。",
+        "thoughtful": "东西别都挤在一边，容易破。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "折好纸袋"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/keeper.png",
+          "portrait": "seasonal/spring/keeper-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/keeper-spring.png",
+            "gameAtlas": "native/full/keeper-spring.png",
+            "worldAtlas": "native/world/keeper-spring.png",
+            "frameDirectory": "native/frames/keeper/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/keeper.png",
+          "portrait": "seasonal/summer/keeper-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/keeper-summer.png",
+            "gameAtlas": "native/full/keeper-summer.png",
+            "worldAtlas": "native/world/keeper-summer.png",
+            "frameDirectory": "native/frames/keeper/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/keeper.png",
+          "portrait": "seasonal/autumn/keeper-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/keeper-autumn.png",
+            "gameAtlas": "native/full/keeper-autumn.png",
+            "worldAtlas": "native/world/keeper-autumn.png",
+            "frameDirectory": "native/frames/keeper/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/keeper.png",
+          "portrait": "seasonal/winter/keeper-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/keeper-winter.png",
+            "gameAtlas": "native/full/keeper-winter.png",
+            "worldAtlas": "native/world/keeper-winter.png",
+            "frameDirectory": "native/frames/keeper/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "barista",
+      "name": "店员",
+      "role": "认识每个做东西的人",
+      "detail": "红棕齐刘海、米白衬衫、焦糖围裙与小蓝杯，延续咖啡馆的暖色。",
+      "colors": [
+        "#a86b48",
+        "#b48b5b",
+        "#e9dfc6"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/barista-front.png",
+      "poses": [
+        "poses/barista-front.png",
+        "poses/barista-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/barista-neutral.png",
+        "warm": "portraits/barista-warm.png",
+        "thoughtful": "portraits/barista-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "擦一只杯子"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "杯子擦好了。慢慢喝。",
+        "thoughtful": "你刚才说的，我还在想。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "擦一只杯子"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/barista.png",
+          "portrait": "seasonal/spring/barista-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/barista-spring.png",
+            "gameAtlas": "native/full/barista-spring.png",
+            "worldAtlas": "native/world/barista-spring.png",
+            "frameDirectory": "native/frames/barista/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/barista.png",
+          "portrait": "seasonal/summer/barista-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/barista-summer.png",
+            "gameAtlas": "native/full/barista-summer.png",
+            "worldAtlas": "native/world/barista-summer.png",
+            "frameDirectory": "native/frames/barista/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/barista.png",
+          "portrait": "seasonal/autumn/barista-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/barista-autumn.png",
+            "gameAtlas": "native/full/barista-autumn.png",
+            "worldAtlas": "native/world/barista-autumn.png",
+            "frameDirectory": "native/frames/barista/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/barista.png",
+          "portrait": "seasonal/winter/barista-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/barista-winter.png",
+            "gameAtlas": "native/full/barista-winter.png",
+            "worldAtlas": "native/world/barista-winter.png",
+            "frameDirectory": "native/frames/barista/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "mentor",
+      "name": "工坊导师",
+      "role": "手上有活，讲解耐心",
+      "detail": "灰蓝外套、眼镜、胸前尺笔和木作榫接，衣着比阿钳更规整，避免两位工匠混淆。",
+      "colors": [
+        "#687e8c",
+        "#ccb794",
+        "#4e4c54"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/mentor-front.png",
+      "poses": [
+        "poses/mentor-front.png",
+        "poses/mentor-everyday.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/mentor-neutral.png",
+        "warm": "portraits/mentor-warm.png",
+        "thoughtful": "portraits/mentor-thoughtful.png"
+      },
+      "source": "source/residents-atlas.png",
+      "actionType": "prop-idle-pose",
+      "actions": [
+        "日常站姿",
+        "量一量榫接"
+      ],
+      "lines": [
+        "海风吹过来了。坐一会儿再走吧。"
+      ],
+      "dialogue": {
+        "neutral": "海风吹过来了。坐一会儿再走吧。",
+        "warm": "量过了，来试着合一下。",
+        "thoughtful": "这里差一点。我们一起看看。"
+      },
+      "poseLabels": [
+        "日常站姿",
+        "量一量榫接"
+      ],
+      "extraSources": [
+        "source/resident-nuance-portraits.png",
+        "source/resident-nuance-actions.png"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "薄外套与轻针织，袖口可以挽起。",
+          "fullbody": "seasonal/spring/mentor.png",
+          "portrait": "seasonal/spring/mentor-portrait.png",
+          "source": "source/clothes-spring.png",
+          "locomotion": {
+            "sheet": "native/mentor-spring.png",
+            "gameAtlas": "native/full/mentor-spring.png",
+            "worldAtlas": "native/world/mentor-spring.png",
+            "frameDirectory": "native/frames/mentor/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "轻便短袖、卷袖与透气衣料。",
+          "fullbody": "seasonal/summer/mentor.png",
+          "portrait": "seasonal/summer/mentor-portrait.png",
+          "source": "source/clothes-summer.png",
+          "locomotion": {
+            "sheet": "native/mentor-summer.png",
+            "gameAtlas": "native/full/mentor-summer.png",
+            "worldAtlas": "native/world/mentor-summer.png",
+            "frameDirectory": "native/frames/mentor/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "针织背心、长袖与较暖的鞋袜。",
+          "fullbody": "seasonal/autumn/mentor.png",
+          "portrait": "seasonal/autumn/mentor-portrait.png",
+          "source": "source/clothes-autumn.png",
+          "locomotion": {
+            "sheet": "native/mentor-autumn.png",
+            "gameAtlas": "native/full/mentor-autumn.png",
+            "worldAtlas": "native/world/mentor-autumn.png",
+            "frameDirectory": "native/frames/mentor/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "厚外套、围巾、手套与包脚靴。",
+          "fullbody": "seasonal/winter/mentor.png",
+          "portrait": "seasonal/winter/mentor-portrait.png",
+          "source": "source/clothes-winter.png",
+          "locomotion": {
+            "sheet": "native/mentor-winter.png",
+            "gameAtlas": "native/full/mentor-winter.png",
+            "worldAtlas": "native/world/mentor-winter.png",
+            "frameDirectory": "native/frames/mentor/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    }
+  ],
+  "moodLabels": {
+    "neutral": "倾听",
+    "joy": "开心",
+    "concern": "担心",
+    "resolve": "认真",
+    "soft": "微笑",
+    "amused": "忍俊",
+    "shy": "局促",
+    "puzzled": "疑惑",
+    "weary": "疲惫",
+    "hurt": "受伤",
+    "wistful": "不舍",
+    "relieved": "释然",
+    "warm": "亲切",
+    "thoughtful": "思量"
+  },
+  "moodNotes": {
+    "neutral": "放松眉眼，给对方说完的时间。",
+    "joy": "眼睛与嘴角一起打开，适合真心高兴的时刻。",
+    "concern": "眉心略收，目光朝向对方，仍然愿意回应。",
+    "resolve": "目光稳定、嘴角收住，清楚地说出自己的选择。",
+    "soft": "眼睑放松、嘴角轻轻抬起；不必每次开心都大笑。",
+    "amused": "嘴角略不对称，眼神瞥向一边，像在忍住笑。",
+    "shy": "下巴微收、目光游移，笑意和局促同时存在。",
+    "puzzled": "一侧眉毛抬起、头稍偏，问题还没有想明白。",
+    "weary": "上眼睑沉、肩线垂下，允许人显出疲惫。",
+    "hurt": "唇线收紧、目光避开，努力维持平静。",
+    "wistful": "望向稍远处，近乎微笑，舍不得却愿意好好说。",
+    "relieved": "眼睛短暂闭上、肩膀松开，紧绷终于放下。",
+    "warm": "眉眼舒展，带着各自习惯的亲切回应。",
+    "thoughtful": "目光转向心里，眉眼与嘴角留下一点犹豫。"
+  },
+  "seasons": {
+    "spring": {
+      "name": "春装",
+      "note": "薄外套与轻针织，袖口可以挽起。"
+    },
+    "summer": {
+      "name": "夏装",
+      "note": "轻便短袖、卷袖与透气衣料。"
+    },
+    "autumn": {
+      "name": "秋装",
+      "note": "针织背心、长袖与较暖的鞋袜。"
+    },
+    "winter": {
+      "name": "冬装",
+      "note": "厚外套、围巾、手套与包脚靴。"
+    }
+  }
+}

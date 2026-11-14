@@ -1,0 +1,13 @@
+{
+  "name": "暮金 / Sea Gold",
+  "font": "Fusion Pixel 12px proportional zh_hans",
+  "source": "https://github.com/TakWolf/fusion-pixel-font",
+  "fontLicense": "SIL Open Font License 1.1; see ../../../fonts/fusion-pixel-OFL.txt",
+  "sizes": [60, 72, 96, 120, 144],
+  "face": ["#fff9df", "#fff0c7", "#ffe2a4", "#f9cb84", "#edb274", "#d99873"],
+  "bevel": "#fff7d6",
+  "copper": "#bc837c",
+  "edge": "#4b465d",
+  "shadow": "#5b4e67",
+  "grain": "gold-grain.svg"
+}

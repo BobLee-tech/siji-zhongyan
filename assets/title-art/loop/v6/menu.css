@@ -1,0 +1,17 @@
+@import url('../v5/menu.css');
+@import url('../type/sea-gold.css');
+.title-heading{--wordmark-size:120px;top:11%;left:7%;text-shadow:none}
+.title-menu{bottom:17%;gap:12px}
+.title-tools{gap:10px}
+.title-utility{width:36px;height:36px;padding:0;display:grid;place-items:center;background:#29475338;border-color:#ffe4b94a;line-height:1}
+.title-pause-symbol{display:block;position:relative;width:12px;height:14px;border-left:4px solid #fff0cb;border-right:4px solid #fff0cb}
+.is-paused .title-pause-symbol{width:0;height:0;border:7px solid transparent;border-left:11px solid #fff0cb;border-right:0;margin-left:3px}
+.title-info-symbol{font:24px/1 'Title Pixel',monospace;color:#fff0cb}
+.title-return{font-size:12px}
+@media(min-width:1800px){.title-heading{--wordmark-size:144px}}
+@media(max-width:1100px){.title-heading{--wordmark-size:96px}}
+@media(max-width:650px){.title-heading{--wordmark-size:72px}}
+@media(max-width:360px){.title-heading{--wordmark-size:60px}}
+@media(max-aspect-ratio:4/3){.title-menu{bottom:11%;gap:12px}}
+@media(max-width:600px) and (orientation:portrait){.title-heading{top:10%;left:7%}.title-tools{top:20px;right:6%}.title-menu{bottom:12%}.title-utility{width:32px;height:32px}}
+@media(max-height:550px) and (orientation:landscape){.title-heading{--wordmark-size:72px;top:10%}.title-menu{bottom:12%;gap:2px}.title-tools{top:4%}}

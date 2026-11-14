@@ -1,0 +1,65 @@
+{
+  "version": 6,
+  "title": "四季终焉",
+  "native": [
+    640,
+    360
+  ],
+  "duration": 24,
+  "fps": 16,
+  "basePaletteColors": 96,
+  "liveCanvas": true,
+  "integerMotion": true,
+  "wholeSceneWarp": false,
+  "seamError": 0,
+  "stableFeetAndPier": true,
+  "movingPixelsAtGust": 20136,
+  "cloudTravel": 14,
+  "hairTravel": 6,
+  "breathing": true,
+  "assets": {
+    "width": 640,
+    "height": 360,
+    "layers": {
+      "auri": 2992,
+      "nox": 2712,
+      "clouds": 37712,
+      "water": 1173,
+      "ripples": 1255,
+      "hair": 490,
+      "hem": 540
+    },
+    "cloudComponents": [
+      {
+        "id": 0,
+        "count": 37552,
+        "bounds": [
+          231,
+          0,
+          639,
+          165
+        ]
+      },
+      {
+        "id": 20,
+        "count": 28,
+        "bounds": [
+          453,
+          154,
+          465,
+          156
+        ]
+      },
+      {
+        "id": 45,
+        "count": 18,
+        "bounds": [
+          592,
+          167,
+          609,
+          167
+        ]
+      }
+    ]
+  }
+}

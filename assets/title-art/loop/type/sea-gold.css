@@ -1,0 +1,18 @@
+/* 暮金：12px glyph grid, hard highlights, warm cut face and cool cast shadow. */
+.title-heading .title-wordmark{
+  position:relative;display:inline-block;margin:0;white-space:nowrap;
+  font:var(--wordmark-size,120px)/1.12 'Title Pixel',monospace;font-weight:400;
+  letter-spacing:.045em;color:#4b465d;
+  text-shadow:2px 0 #4b465d,-2px 0 #4b465d,0 -2px #4b465d,0 2px #4b465d,0 7px #56485f,0 10px #5b4e67;
+  isolation:isolate;
+}
+.title-wordmark::before,.title-wordmark::after{content:attr(data-text);position:absolute;inset:0;pointer-events:none}
+.title-wordmark::before{color:#bc837c;transform:translateY(4px);text-shadow:0 2px #775866}
+.title-wordmark::after{
+  color:transparent;text-shadow:none;
+  background-image:url('./gold-grain.svg'),linear-gradient(180deg,#fff9df 0 20%,#fff0c7 20% 36%,#ffe2a4 36% 53%,#f9cb84 53% 71%,#edb274 71% 85%,#d99873 85% 100%);
+  background-size:48px 32px,100% 100%;
+  -webkit-background-clip:text;background-clip:text;
+  filter:drop-shadow(0 -2px 0 #fff7d6);
+}
+@supports not (background-clip:text){.title-wordmark::after{color:#ffe7ae;background:none}}

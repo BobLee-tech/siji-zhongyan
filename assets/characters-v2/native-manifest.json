@@ -1,0 +1,4714 @@
+{
+  "version": 1,
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "columns": 6,
+  "directions": [
+    "down",
+    "left",
+    "right",
+    "up"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "characters": {
+    "auri": {
+      "spring": {
+        "sheet": "native/auri-spring.png",
+        "gameAtlas": "native/full/auri-spring.png",
+        "worldAtlas": "native/world/auri-spring.png",
+        "frameDirectory": "native/frames/auri/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/auri-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/auri-summer.png",
+        "gameAtlas": "native/full/auri-summer.png",
+        "worldAtlas": "native/world/auri-summer.png",
+        "frameDirectory": "native/frames/auri/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/auri-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/auri-autumn.png",
+        "gameAtlas": "native/full/auri-autumn.png",
+        "worldAtlas": "native/world/auri-autumn.png",
+        "frameDirectory": "native/frames/auri/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/auri-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/auri-winter.png",
+        "gameAtlas": "native/full/auri-winter.png",
+        "worldAtlas": "native/world/auri-winter.png",
+        "frameDirectory": "native/frames/auri/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/auri-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "nox": {
+      "spring": {
+        "sheet": "native/nox-spring.png",
+        "gameAtlas": "native/full/nox-spring.png",
+        "worldAtlas": "native/world/nox-spring.png",
+        "frameDirectory": "native/frames/nox/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/nox-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/nox-summer.png",
+        "gameAtlas": "native/full/nox-summer.png",
+        "worldAtlas": "native/world/nox-summer.png",
+        "frameDirectory": "native/frames/nox/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/nox-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/nox-autumn.png",
+        "gameAtlas": "native/full/nox-autumn.png",
+        "worldAtlas": "native/world/nox-autumn.png",
+        "frameDirectory": "native/frames/nox/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/nox-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/nox-winter.png",
+        "gameAtlas": "native/full/nox-winter.png",
+        "worldAtlas": "native/world/nox-winter.png",
+        "frameDirectory": "native/frames/nox/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/nox-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "saku": {
+      "spring": {
+        "sheet": "native/saku-spring.png",
+        "gameAtlas": "native/full/saku-spring.png",
+        "worldAtlas": "native/world/saku-spring.png",
+        "frameDirectory": "native/frames/saku/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/saku-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/saku-summer.png",
+        "gameAtlas": "native/full/saku-summer.png",
+        "worldAtlas": "native/world/saku-summer.png",
+        "frameDirectory": "native/frames/saku/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/saku-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/saku-autumn.png",
+        "gameAtlas": "native/full/saku-autumn.png",
+        "worldAtlas": "native/world/saku-autumn.png",
+        "frameDirectory": "native/frames/saku/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/saku-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/saku-winter.png",
+        "gameAtlas": "native/full/saku-winter.png",
+        "worldAtlas": "native/world/saku-winter.png",
+        "frameDirectory": "native/frames/saku/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/saku-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "saku-female": {
+      "spring": {
+        "sheet": "native/saku-female-spring.png",
+        "gameAtlas": "native/full/saku-female-spring.png",
+        "worldAtlas": "native/world/saku-female-spring.png",
+        "frameDirectory": "native/frames/saku-female/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/saku-female-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/saku-female-summer.png",
+        "gameAtlas": "native/full/saku-female-summer.png",
+        "worldAtlas": "native/world/saku-female-summer.png",
+        "frameDirectory": "native/frames/saku-female/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/saku-female-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/saku-female-autumn.png",
+        "gameAtlas": "native/full/saku-female-autumn.png",
+        "worldAtlas": "native/world/saku-female-autumn.png",
+        "frameDirectory": "native/frames/saku-female/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/saku-female-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/saku-female-winter.png",
+        "gameAtlas": "native/full/saku-female-winter.png",
+        "worldAtlas": "native/world/saku-female-winter.png",
+        "frameDirectory": "native/frames/saku-female/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/saku-female-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "chinatsu": {
+      "spring": {
+        "sheet": "native/chinatsu-spring.png",
+        "gameAtlas": "native/full/chinatsu-spring.png",
+        "worldAtlas": "native/world/chinatsu-spring.png",
+        "frameDirectory": "native/frames/chinatsu/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/chinatsu-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/chinatsu-summer.png",
+        "gameAtlas": "native/full/chinatsu-summer.png",
+        "worldAtlas": "native/world/chinatsu-summer.png",
+        "frameDirectory": "native/frames/chinatsu/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/chinatsu-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/chinatsu-autumn.png",
+        "gameAtlas": "native/full/chinatsu-autumn.png",
+        "worldAtlas": "native/world/chinatsu-autumn.png",
+        "frameDirectory": "native/frames/chinatsu/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/chinatsu-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/chinatsu-winter.png",
+        "gameAtlas": "native/full/chinatsu-winter.png",
+        "worldAtlas": "native/world/chinatsu-winter.png",
+        "frameDirectory": "native/frames/chinatsu/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/chinatsu-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "asumi": {
+      "spring": {
+        "sheet": "native/asumi-spring.png",
+        "gameAtlas": "native/full/asumi-spring.png",
+        "worldAtlas": "native/world/asumi-spring.png",
+        "frameDirectory": "native/frames/asumi/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/asumi-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/asumi-summer.png",
+        "gameAtlas": "native/full/asumi-summer.png",
+        "worldAtlas": "native/world/asumi-summer.png",
+        "frameDirectory": "native/frames/asumi/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/asumi-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/asumi-autumn.png",
+        "gameAtlas": "native/full/asumi-autumn.png",
+        "worldAtlas": "native/world/asumi-autumn.png",
+        "frameDirectory": "native/frames/asumi/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/asumi-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/asumi-winter.png",
+        "gameAtlas": "native/full/asumi-winter.png",
+        "worldAtlas": "native/world/asumi-winter.png",
+        "frameDirectory": "native/frames/asumi/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/asumi-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "shio": {
+      "spring": {
+        "sheet": "native/shio-spring.png",
+        "gameAtlas": "native/full/shio-spring.png",
+        "worldAtlas": "native/world/shio-spring.png",
+        "frameDirectory": "native/frames/shio/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/shio-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/shio-summer.png",
+        "gameAtlas": "native/full/shio-summer.png",
+        "worldAtlas": "native/world/shio-summer.png",
+        "frameDirectory": "native/frames/shio/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/shio-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/shio-autumn.png",
+        "gameAtlas": "native/full/shio-autumn.png",
+        "worldAtlas": "native/world/shio-autumn.png",
+        "frameDirectory": "native/frames/shio/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/shio-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/shio-winter.png",
+        "gameAtlas": "native/full/shio-winter.png",
+        "worldAtlas": "native/world/shio-winter.png",
+        "frameDirectory": "native/frames/shio/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/shio-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "aqian": {
+      "spring": {
+        "sheet": "native/aqian-spring.png",
+        "gameAtlas": "native/full/aqian-spring.png",
+        "worldAtlas": "native/world/aqian-spring.png",
+        "frameDirectory": "native/frames/aqian/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/aqian-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/aqian-summer.png",
+        "gameAtlas": "native/full/aqian-summer.png",
+        "worldAtlas": "native/world/aqian-summer.png",
+        "frameDirectory": "native/frames/aqian/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/aqian-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/aqian-autumn.png",
+        "gameAtlas": "native/full/aqian-autumn.png",
+        "worldAtlas": "native/world/aqian-autumn.png",
+        "frameDirectory": "native/frames/aqian/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/aqian-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/aqian-winter.png",
+        "gameAtlas": "native/full/aqian-winter.png",
+        "worldAtlas": "native/world/aqian-winter.png",
+        "frameDirectory": "native/frames/aqian/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/aqian-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "lighthouse": {
+      "spring": {
+        "sheet": "native/lighthouse-spring.png",
+        "gameAtlas": "native/full/lighthouse-spring.png",
+        "worldAtlas": "native/world/lighthouse-spring.png",
+        "frameDirectory": "native/frames/lighthouse/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/lighthouse-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/lighthouse-summer.png",
+        "gameAtlas": "native/full/lighthouse-summer.png",
+        "worldAtlas": "native/world/lighthouse-summer.png",
+        "frameDirectory": "native/frames/lighthouse/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/lighthouse-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/lighthouse-autumn.png",
+        "gameAtlas": "native/full/lighthouse-autumn.png",
+        "worldAtlas": "native/world/lighthouse-autumn.png",
+        "frameDirectory": "native/frames/lighthouse/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/lighthouse-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/lighthouse-winter.png",
+        "gameAtlas": "native/full/lighthouse-winter.png",
+        "worldAtlas": "native/world/lighthouse-winter.png",
+        "frameDirectory": "native/frames/lighthouse/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/lighthouse-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "mai": {
+      "spring": {
+        "sheet": "native/mai-spring.png",
+        "gameAtlas": "native/full/mai-spring.png",
+        "worldAtlas": "native/world/mai-spring.png",
+        "frameDirectory": "native/frames/mai/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/mai-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/mai-summer.png",
+        "gameAtlas": "native/full/mai-summer.png",
+        "worldAtlas": "native/world/mai-summer.png",
+        "frameDirectory": "native/frames/mai/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/mai-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/mai-autumn.png",
+        "gameAtlas": "native/full/mai-autumn.png",
+        "worldAtlas": "native/world/mai-autumn.png",
+        "frameDirectory": "native/frames/mai/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/mai-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/mai-winter.png",
+        "gameAtlas": "native/full/mai-winter.png",
+        "worldAtlas": "native/world/mai-winter.png",
+        "frameDirectory": "native/frames/mai/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/mai-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "postman": {
+      "spring": {
+        "sheet": "native/postman-spring.png",
+        "gameAtlas": "native/full/postman-spring.png",
+        "worldAtlas": "native/world/postman-spring.png",
+        "frameDirectory": "native/frames/postman/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/postman-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/postman-summer.png",
+        "gameAtlas": "native/full/postman-summer.png",
+        "worldAtlas": "native/world/postman-summer.png",
+        "frameDirectory": "native/frames/postman/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/postman-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/postman-autumn.png",
+        "gameAtlas": "native/full/postman-autumn.png",
+        "worldAtlas": "native/world/postman-autumn.png",
+        "frameDirectory": "native/frames/postman/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/postman-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/postman-winter.png",
+        "gameAtlas": "native/full/postman-winter.png",
+        "worldAtlas": "native/world/postman-winter.png",
+        "frameDirectory": "native/frames/postman/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/postman-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "angler": {
+      "spring": {
+        "sheet": "native/angler-spring.png",
+        "gameAtlas": "native/full/angler-spring.png",
+        "worldAtlas": "native/world/angler-spring.png",
+        "frameDirectory": "native/frames/angler/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/angler-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/angler-summer.png",
+        "gameAtlas": "native/full/angler-summer.png",
+        "worldAtlas": "native/world/angler-summer.png",
+        "frameDirectory": "native/frames/angler/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/angler-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/angler-autumn.png",
+        "gameAtlas": "native/full/angler-autumn.png",
+        "worldAtlas": "native/world/angler-autumn.png",
+        "frameDirectory": "native/frames/angler/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/angler-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/angler-winter.png",
+        "gameAtlas": "native/full/angler-winter.png",
+        "worldAtlas": "native/world/angler-winter.png",
+        "frameDirectory": "native/frames/angler/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/angler-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "kid-a": {
+      "spring": {
+        "sheet": "native/kid-a-spring.png",
+        "gameAtlas": "native/full/kid-a-spring.png",
+        "worldAtlas": "native/world/kid-a-spring.png",
+        "frameDirectory": "native/frames/kid-a/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      },
+      "summer": {
+        "sheet": "native/kid-a-summer.png",
+        "gameAtlas": "native/full/kid-a-summer.png",
+        "worldAtlas": "native/world/kid-a-summer.png",
+        "frameDirectory": "native/frames/kid-a/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      },
+      "autumn": {
+        "sheet": "native/kid-a-autumn.png",
+        "gameAtlas": "native/full/kid-a-autumn.png",
+        "worldAtlas": "native/world/kid-a-autumn.png",
+        "frameDirectory": "native/frames/kid-a/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      },
+      "winter": {
+        "sheet": "native/kid-a-winter.png",
+        "gameAtlas": "native/full/kid-a-winter.png",
+        "worldAtlas": "native/world/kid-a-winter.png",
+        "frameDirectory": "native/frames/kid-a/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      }
+    },
+    "kid-b": {
+      "spring": {
+        "sheet": "native/kid-b-spring.png",
+        "gameAtlas": "native/full/kid-b-spring.png",
+        "worldAtlas": "native/world/kid-b-spring.png",
+        "frameDirectory": "native/frames/kid-b/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      },
+      "summer": {
+        "sheet": "native/kid-b-summer.png",
+        "gameAtlas": "native/full/kid-b-summer.png",
+        "worldAtlas": "native/world/kid-b-summer.png",
+        "frameDirectory": "native/frames/kid-b/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      },
+      "autumn": {
+        "sheet": "native/kid-b-autumn.png",
+        "gameAtlas": "native/full/kid-b-autumn.png",
+        "worldAtlas": "native/world/kid-b-autumn.png",
+        "frameDirectory": "native/frames/kid-b/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      },
+      "winter": {
+        "sheet": "native/kid-b-winter.png",
+        "gameAtlas": "native/full/kid-b-winter.png",
+        "worldAtlas": "native/world/kid-b-winter.png",
+        "frameDirectory": "native/frames/kid-b/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      }
+    },
+    "guide": {
+      "spring": {
+        "sheet": "native/guide-spring.png",
+        "gameAtlas": "native/full/guide-spring.png",
+        "worldAtlas": "native/world/guide-spring.png",
+        "frameDirectory": "native/frames/guide/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/guide-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/guide-summer.png",
+        "gameAtlas": "native/full/guide-summer.png",
+        "worldAtlas": "native/world/guide-summer.png",
+        "frameDirectory": "native/frames/guide/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/guide-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/guide-autumn.png",
+        "gameAtlas": "native/full/guide-autumn.png",
+        "worldAtlas": "native/world/guide-autumn.png",
+        "frameDirectory": "native/frames/guide/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/guide-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/guide-winter.png",
+        "gameAtlas": "native/full/guide-winter.png",
+        "worldAtlas": "native/world/guide-winter.png",
+        "frameDirectory": "native/frames/guide/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/guide-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "walker": {
+      "spring": {
+        "sheet": "native/walker-spring.png",
+        "gameAtlas": "native/full/walker-spring.png",
+        "worldAtlas": "native/world/walker-spring.png",
+        "frameDirectory": "native/frames/walker/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/walker-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/walker-summer.png",
+        "gameAtlas": "native/full/walker-summer.png",
+        "worldAtlas": "native/world/walker-summer.png",
+        "frameDirectory": "native/frames/walker/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/walker-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/walker-autumn.png",
+        "gameAtlas": "native/full/walker-autumn.png",
+        "worldAtlas": "native/world/walker-autumn.png",
+        "frameDirectory": "native/frames/walker/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/walker-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/walker-winter.png",
+        "gameAtlas": "native/full/walker-winter.png",
+        "worldAtlas": "native/world/walker-winter.png",
+        "frameDirectory": "native/frames/walker/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/walker-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "gardener": {
+      "spring": {
+        "sheet": "native/gardener-spring.png",
+        "gameAtlas": "native/full/gardener-spring.png",
+        "worldAtlas": "native/world/gardener-spring.png",
+        "frameDirectory": "native/frames/gardener/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/gardener-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/gardener-summer.png",
+        "gameAtlas": "native/full/gardener-summer.png",
+        "worldAtlas": "native/world/gardener-summer.png",
+        "frameDirectory": "native/frames/gardener/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/gardener-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/gardener-autumn.png",
+        "gameAtlas": "native/full/gardener-autumn.png",
+        "worldAtlas": "native/world/gardener-autumn.png",
+        "frameDirectory": "native/frames/gardener/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/gardener-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/gardener-winter.png",
+        "gameAtlas": "native/full/gardener-winter.png",
+        "worldAtlas": "native/world/gardener-winter.png",
+        "frameDirectory": "native/frames/gardener/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/gardener-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "keeper": {
+      "spring": {
+        "sheet": "native/keeper-spring.png",
+        "gameAtlas": "native/full/keeper-spring.png",
+        "worldAtlas": "native/world/keeper-spring.png",
+        "frameDirectory": "native/frames/keeper/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/keeper-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/keeper-summer.png",
+        "gameAtlas": "native/full/keeper-summer.png",
+        "worldAtlas": "native/world/keeper-summer.png",
+        "frameDirectory": "native/frames/keeper/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/keeper-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/keeper-autumn.png",
+        "gameAtlas": "native/full/keeper-autumn.png",
+        "worldAtlas": "native/world/keeper-autumn.png",
+        "frameDirectory": "native/frames/keeper/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/keeper-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/keeper-winter.png",
+        "gameAtlas": "native/full/keeper-winter.png",
+        "worldAtlas": "native/world/keeper-winter.png",
+        "frameDirectory": "native/frames/keeper/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/keeper-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "barista": {
+      "spring": {
+        "sheet": "native/barista-spring.png",
+        "gameAtlas": "native/full/barista-spring.png",
+        "worldAtlas": "native/world/barista-spring.png",
+        "frameDirectory": "native/frames/barista/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/barista-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/barista-summer.png",
+        "gameAtlas": "native/full/barista-summer.png",
+        "worldAtlas": "native/world/barista-summer.png",
+        "frameDirectory": "native/frames/barista/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/barista-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/barista-autumn.png",
+        "gameAtlas": "native/full/barista-autumn.png",
+        "worldAtlas": "native/world/barista-autumn.png",
+        "frameDirectory": "native/frames/barista/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/barista-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/barista-winter.png",
+        "gameAtlas": "native/full/barista-winter.png",
+        "worldAtlas": "native/world/barista-winter.png",
+        "frameDirectory": "native/frames/barista/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/barista-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    },
+    "mentor": {
+      "spring": {
+        "sheet": "native/mentor-spring.png",
+        "gameAtlas": "native/full/mentor-spring.png",
+        "worldAtlas": "native/world/mentor-spring.png",
+        "frameDirectory": "native/frames/mentor/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/mentor-spring.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "summer": {
+        "sheet": "native/mentor-summer.png",
+        "gameAtlas": "native/full/mentor-summer.png",
+        "worldAtlas": "native/world/mentor-summer.png",
+        "frameDirectory": "native/frames/mentor/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/mentor-summer.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "autumn": {
+        "sheet": "native/mentor-autumn.png",
+        "gameAtlas": "native/full/mentor-autumn.png",
+        "worldAtlas": "native/world/mentor-autumn.png",
+        "frameDirectory": "native/frames/mentor/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/mentor-autumn.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      },
+      "winter": {
+        "sheet": "native/mentor-winter.png",
+        "gameAtlas": "native/full/mentor-winter.png",
+        "worldAtlas": "native/world/mentor-winter.png",
+        "frameDirectory": "native/frames/mentor/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        },
+        "sit": {
+          "atlas": "native/sit/mentor-winter.png",
+          "cell": [
+            64,
+            64
+          ],
+          "seat": [
+            32,
+            60
+          ],
+          "rows": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "frames": 6,
+          "fps": 4
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": 7,
+  "width": 640,
+  "height": 360,
+  "people": {
+    "auri": {
+      "x": 194,
+      "y": 178,
+      "width": 82,
+      "height": 130,
+      "frames": 8,
+      "columns": 4,
+      "unique": 8
+    },
+    "nox": {
+      "x": 254,
+      "y": 178,
+      "width": 64,
+      "height": 130,
+      "frames": 8,
+      "columns": 4,
+      "unique": 8
+    }
+  },
+  "sky": {
+    "x": 224,
+    "y": 0,
+    "width": 416,
+    "height": 172,
+    "drawnKeys": 12,
+    "frames": 48,
+    "columns": 8,
+    "period": 24
+  },
+  "water": {
+    "x": 392,
+    "y": 223,
+    "width": 248,
+    "height": 137,
+    "drawnKeys": 16,
+    "frames": 64,
+    "columns": 8,
+    "period": 4
+  },
+  "drawnKeyframes": 44,
+  "wholeBodyTranslation": false,
+  "cloudTranslation": false,
+  "waterSheetWarp": false
+}

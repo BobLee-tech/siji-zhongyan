@@ -1,0 +1,43 @@
+@font-face{font-family:'Title Pixel';src:url('../../../fonts/fusion-pixel-12px-proportional-zh_hans.otf.woff2') format('woff2');font-display:swap}
+.title-screen{--title-cream:#fff0cb;--title-gold:#f8cf87;--title-shadow:#274b54;position:fixed;inset:0;z-index:100;isolation:isolate;overflow:hidden;background:#184b54;color:var(--title-cream);font:12px/1.8 'Title Pixel',monospace}
+.title-screen *{box-sizing:border-box}
+.title-art,.title-poster{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%;image-rendering:pixelated;pointer-events:none}
+.title-art{z-index:1}
+.title-shade{position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(0deg,rgba(11,39,48,.4),transparent 29%)}
+.title-heading{position:absolute;z-index:3;left:7%;top:11%;user-select:none;text-shadow:0 2px #66556c;animation:title-arrive .7s steps(8) both}
+.title-eyebrow{display:flex;align-items:center;gap:12px;margin:0 0 18px;font:12px/1.6 'Title Pixel',monospace;letter-spacing:4px;color:#ffebd2}
+.title-season{display:inline-block;width:5px;height:5px;background:#ffe4a8;box-shadow:8px 0 #ecb4b0,16px 0 #9ac0b5,24px 0 #d5d8dd;margin-right:24px}
+.title-heading h1{font:72px/1.25 'Title Pixel',monospace;letter-spacing:8px;margin:0;color:var(--title-cream);text-shadow:0 3px #85617a,0 6px #65566e}
+.title-heading .title-subtitle{display:flex;align-items:center;gap:14px;margin:20px 0 0;font:12px/1.8 'Title Pixel',monospace;letter-spacing:5px;color:#ffe9c9}
+.title-subtitle:before{content:'';width:25px;height:2px;background:#f8cf87;box-shadow:0 2px #977f8b}
+.title-menu{position:absolute;z-index:3;left:76%;bottom:18%;width:270px;max-width:40%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:stretch;gap:10px;text-align:center}
+.title-menu-note{font:12px/1.8 'Title Pixel',monospace;letter-spacing:3px;margin:0 0 8px;color:#b9d1c8;text-shadow:0 2px #214b55}
+.title-action{position:relative;border:0;border-radius:0;color:var(--title-cream);background:transparent;font:12px/24px 'Title Pixel',monospace;letter-spacing:3px;padding:5px 14px;cursor:pointer;text-shadow:0 2px #183b49;transition:color .15s}
+.title-action:hover{color:#fff8e8}
+.title-action.primary{font-size:24px;line-height:36px;letter-spacing:4px;padding:13px 16px;color:#ffdf9e;border-top:1px solid #afc2b45c;border-bottom:1px solid #afc2b45c;margin-bottom:4px}
+.title-action.primary:before{content:'';position:absolute;left:9px;top:calc(50% - 4px);width:4px;height:8px;background:#f7d48f;box-shadow:4px 2px #f7d48f;height:4px}
+.title-action:focus-visible,.title-utility:focus-visible,.title-return:focus-visible{outline:2px solid #ffe4a8;outline-offset:5px}
+.title-action:hover:after,.title-action:focus-visible:after{content:'';position:absolute;bottom:1px;left:45%;width:10%;height:2px;background:#f7d48f}
+.title-tools{position:absolute;top:4%;right:4%;z-index:4;display:flex;gap:12px}
+.title-utility,.title-return{font:12px/20px 'Title Pixel',monospace;letter-spacing:1px;border:1px solid #ffedc64d;background:#24485445;color:#fff0cb;cursor:pointer;border-radius:0;padding:6px 11px;text-shadow:0 1px #36515a}
+.title-utility:hover,.title-return:hover{background:#244854a0;border-color:#ffedc6}
+.title-footer{position:absolute;left:4%;right:4%;bottom:4%;z-index:3;display:flex;justify-content:space-between;align-items:center;gap:16px;color:#b8cebf;font:12px/1.8 'Title Pixel',monospace;letter-spacing:2px;text-shadow:0 2px #173e49}
+.title-footer p{margin:0}
+.title-mark{display:flex;align-items:center;gap:10px}
+.title-mark:before{content:'';width:4px;height:4px;background:#f4d094;box-shadow:4px 0 #f4d094,0 4px #f4d094,4px 4px #f4d094}
+.title-return{position:absolute;right:4%;bottom:4%;z-index:5}
+.title-screen.is-viewing .title-heading,.title-screen.is-viewing .title-menu,.title-screen.is-viewing .title-footer{display:none}
+.title-select{position:absolute;inset:0;z-index:5;display:flex;overflow:auto;padding:24px;background:#102e3ed9}
+.title-select[hidden],.title-screen [hidden]{display:none!important}
+.title-select .welcome-card{width:min(580px,100%);margin:auto}
+.title-select .paper{padding:28px;color:#22344f}
+.title-select .paper>*+*{margin-top:16px}
+.title-select .paper h2{font:36px/1.5 'Title Pixel',monospace;margin-top:6px}
+.title-select .title-select-back{background:transparent;border:0;font:12px/20px 'Title Pixel',monospace;color:#53787a;padding:0;cursor:pointer}
+@keyframes title-arrive{from{opacity:0}to{opacity:1}}
+@media(min-width:1800px){.title-heading h1{font-size:96px}.title-heading{top:12%}.title-menu{width:310px}.title-menu-note{margin-bottom:14px}.title-action{padding:8px 14px}}
+@media(max-width:1000px){.title-heading h1{font-size:48px;letter-spacing:5px}.title-heading{left:6%;top:12%}.title-eyebrow{letter-spacing:2px;margin-bottom:12px}.title-heading .title-subtitle{letter-spacing:3px;margin-top:14px}.title-menu{width:230px;left:77%;bottom:16%}.title-action.primary{font-size:24px}.title-tools{top:4%}.title-footer{letter-spacing:1px}}
+@media(max-aspect-ratio:4/3){.title-art,.title-poster{height:76%;object-position:41% center}.title-shade{background:linear-gradient(0deg,#184b54 20%,#184b5400 44%)}.title-menu{left:50%;bottom:10%;width:250px;max-width:85%;gap:7px}.title-menu-note{margin-bottom:4px}.title-action.primary{padding:9px 14px}.title-footer .title-verse{display:none}}
+@media(max-width:600px) and (orientation:portrait){.title-art,.title-poster{height:72%;object-position:41% center}.title-heading{top:9%;left:8%}.title-heading h1{font-size:48px;letter-spacing:3px}.title-eyebrow{font-size:12px;letter-spacing:2px}.title-heading .title-subtitle{font-size:12px;letter-spacing:3px}.title-tools{top:22px;right:6%}.title-utility{padding:3px 8px}.title-footer{left:7%;right:7%;bottom:3%;font-size:12px;letter-spacing:0}.title-select{padding:16px}.title-select .paper{padding:24px}.title-heading .title-season{width:4px;height:4px}.title-return{right:6%;bottom:4%}}
+@media(max-height:550px) and (orientation:landscape){.title-heading{top:9%}.title-heading h1{font-size:48px}.title-eyebrow{margin-bottom:6px}.title-heading .title-subtitle{margin-top:8px}.title-menu{bottom:12%;gap:2px}.title-menu-note{margin-bottom:0}.title-action.primary{padding:5px 12px}.title-footer{bottom:3%}.title-tools{top:4%}}
+@media(prefers-reduced-motion:reduce){.title-heading{animation:none}.title-action{transition:none}}

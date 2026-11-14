@@ -1,0 +1,35 @@
+{
+  "source": "public/assets/title-art/01-sunset-pier-v1.png",
+  "durationSeconds": 12,
+  "video": {
+    "file": "sunset-pier-loop-v2.mp4",
+    "width": 1672,
+    "height": 940,
+    "fps": 24
+  },
+  "gif": {
+    "file": "sunset-pier-loop-v2.gif",
+    "width": 836,
+    "height": 470,
+    "fps": 12,
+    "repeat": "infinite"
+  },
+  "pixelStyle": {
+    "nativeWidth": 418,
+    "nativeHeight": 235,
+    "colors": 128,
+    "upscale": "nearest neighbor",
+    "dither": "none"
+  },
+  "motion": [
+    "layered slow cloud drift",
+    "Auri hair and black ribbon",
+    "Auri skirt hem",
+    "Nox hair and shirt hem",
+    "sea ripples and sunset shimmer",
+    "anchored distant sail with gentle heave and roll"
+  ],
+  "boundaryMeanAbsoluteError": 0,
+  "adjacentJoinMeanAbsoluteError": 0.25127740167633783,
+  "reproduction": "node tools/title-art/build-sunset-loop.mjs"
+}

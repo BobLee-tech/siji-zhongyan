@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "note": "声音试听台（docs/sound-lab/）导出的选择放在这里，游戏启动时读；choices 里没写的项用推荐的（src/audio/choices.ts）。现在是空的：全部用推荐的。",
+  "choices": {},
+  "picked": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": "home",
+  "name": { "zh": "双子之家", "en": "TWINS' HOME" },
+  "w": 16,
+  "h": 11,
+  "floor": "floor.png",
+  "solid": [
+    "1111111111111111",
+    "1111111111111111",
+    "1111111111111111",
+    "1111111100011111",
+    "1000101000000001",
+    "1000000000000001",
+    "1111100000011001",
+    "1000000000111101",
+    "1011000000000001",
+    "1000000000001111",
+    "1111111001111111"
+  ],
+  "things": [
+    { "key": "bookshelf", "image": "things/bookshelf.png", "x": 36, "y": 128, "w": 54, "h": 80, "frames": 1, "fps": 0 },
+    { "key": "clock", "image": "things/clock.png", "x": 228, "y": 82, "w": 32, "h": 64, "frames": 10, "fps": 5 },
+    { "key": "paint", "image": "things/paint.png", "x": 96, "y": 128, "w": 64, "h": 44, "frames": 1, "fps": 0 },
+    { "key": "desk-auri", "image": "things/desk-auri.png", "x": 128, "y": 128, "w": 64, "h": 36, "frames": 1, "fps": 0 },
+    { "key": "desk-nox", "image": "things/desk-nox.png", "x": 192, "y": 128, "w": 64, "h": 56, "frames": 1, "fps": 0 },
+    { "key": "stool-auri", "image": "things/stool-auri.png", "x": 144, "y": 154, "w": 32, "h": 28, "frames": 1, "fps": 0 },
+    { "key": "stool-nox", "image": "things/stool-nox.png", "x": 208, "y": 154, "w": 32, "h": 28, "frames": 1, "fps": 0 },
+    { "key": "stove", "image": "things/stove.png", "x": 352, "y": 128, "w": 32, "h": 50, "frames": 1, "fps": 0 },
+    { "key": "counter", "image": "things/counter.png", "x": 384, "y": 128, "w": 64, "h": 56, "frames": 1, "fps": 0 },
+    { "key": "fridge", "image": "things/fridge.png", "x": 448, "y": 128, "w": 32, "h": 72, "frames": 1, "fps": 0 },
+    { "key": "lamp", "image": "things/lamp.png", "x": 32, "y": 224, "w": 32, "h": 68, "frames": 1, "fps": 0 },
+    { "key": "sofa", "image": "things/sofa.png", "x": 64, "y": 224, "w": 64, "h": 56, "frames": 1, "fps": 0 },
+    { "key": "fan", "image": "things/fan.png", "x": 136, "y": 224, "w": 32, "h": 48, "frames": 3, "fps": 10 },
+    { "key": "table", "image": "things/table.png", "x": 64, "y": 288, "w": 64, "h": 44, "frames": 1, "fps": 0 },
+    { "key": "dining", "image": "things/dining.png", "x": 352, "y": 256, "w": 64, "h": 58, "frames": 1, "fps": 0 },
+    { "key": "chair-d1", "image": "things/chair-d1.png", "x": 320, "y": 248, "w": 32, "h": 42, "frames": 1, "fps": 0 },
+    { "key": "chair-d2", "image": "things/chair-d2.png", "x": 416, "y": 248, "w": 32, "h": 42, "frames": 1, "fps": 0 },
+    { "key": "surf", "image": "things/surf.png", "x": 384, "y": 320, "w": 64, "h": 46, "frames": 1, "fps": 0 },
+    { "key": "plant", "image": "things/plant.png", "x": 448, "y": 320, "w": 32, "h": 58, "frames": 1, "fps": 0 }
+  ],
+  "spawn": { "x": 256, "y": 310, "dir": "up" },
+  "exit": [[7, 10], [8, 10]],
+  "interact": [
+    { "id": "photo", "label": "看看合照", "cells": [[9, 2]], "anchor": [304, 32] },
+    { "id": "window", "label": "听听风铃", "cells": [[12, 3], [13, 3]], "anchor": [416, 20] },
+    { "id": "bookshelf", "label": "翻翻书架", "cells": [[1, 3], [2, 3]], "anchor": [63, 44] },
+    { "id": "desk-auri", "label": "看看 Auri 的手工", "cells": [[4, 3], [5, 3]], "anchor": [160, 88] },
+    { "id": "desk-nox", "label": "看看 Nox 的工具", "cells": [[6, 3], [7, 3]], "anchor": [224, 68] },
+    { "id": "fridge", "label": "打开冰箱", "cells": [[14, 3]], "anchor": [464, 52] },
+    { "id": "notebook", "label": "翻开笔记本", "cells": [[2, 8], [3, 8]], "anchor": [96, 240] }
+  ],
+  "seats": [
+    { "id": "sofa-1", "x": 82, "y": 226, "dir": "down" },
+    { "id": "sofa-2", "x": 110, "y": 226, "dir": "down" },
+    { "id": "cushion", "x": 96, "y": 310, "dir": "up" },
+    { "id": "stool-auri", "x": 160, "y": 148, "dir": "up" },
+    { "id": "stool-nox", "x": 224, "y": 148, "dir": "up" },
+    { "id": "dining-1", "x": 336, "y": 250, "dir": "right" },
+    { "id": "dining-2", "x": 432, "y": 250, "dir": "left" }
+  ],
+  "npcs": [],
+  "windows": [
+    { "x": 171, "y": 32, "w": 42, "h": 26 },
+    { "x": 395, "y": 32, "w": 42, "h": 26 }
+  ],
+  "lights": [
+    { "x": 48, "y": 164, "r": 150, "color": "#ffd28c" },
+    { "x": 246, "y": 74, "r": 90, "color": "#ffe2a8" },
+    { "x": 384, "y": 160, "r": 130, "color": "#ffd9a0" }
+  ],
+  "floorType": "wood",
+  "music": "home"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "gallery",
+  "name": { "zh": "展馆", "en": "GALLERY" },
+  "w": 16,
+  "h": 11,
+  "floor": "floor.png",
+  "solid": [
+    "1111111111111111",
+    "1111111111111111",
+    "1111111111111111",
+    "1100000000000011",
+    "1000000000000001",
+    "1000000110000001",
+    "1000000000000001",
+    "1110100000010111",
+    "1000000000000001",
+    "1110000000100011",
+    "1111111001111111"
+  ],
+  "things": [
+    { "key": "plant-1", "image": "things/plant-1.png", "x": 32, "y": 128, "w": 64, "h": 62, "frames": 1, "fps": 0 },
+    { "key": "plant-2", "image": "things/plant-2.png", "x": 448, "y": 128, "w": 64, "h": 62, "frames": 1, "fps": 0 },
+    { "key": "bench", "image": "things/bench.png", "x": 224, "y": 192, "w": 64, "h": 32, "frames": 1, "fps": 0 },
+    { "key": "easel-1", "image": "things/easel-1.png", "x": 128, "y": 256, "w": 32, "h": 58, "frames": 1, "fps": 0 },
+    { "key": "easel-2", "image": "things/easel-2.png", "x": 352, "y": 256, "w": 32, "h": 58, "frames": 1, "fps": 0 },
+    { "key": "case-1", "image": "things/case-1.png", "x": 32, "y": 256, "w": 64, "h": 90, "frames": 1, "fps": 0 },
+    { "key": "case-2", "image": "things/case-2.png", "x": 416, "y": 256, "w": 64, "h": 90, "frames": 1, "fps": 0 },
+    { "key": "vase-1", "image": "things/vase-1.png", "x": 32, "y": 320, "w": 32, "h": 66, "frames": 1, "fps": 0 },
+    { "key": "vase-2", "image": "things/vase-2.png", "x": 68, "y": 320, "w": 32, "h": 66, "frames": 1, "fps": 0 },
+    { "key": "figure", "image": "things/figure.png", "x": 448, "y": 320, "w": 32, "h": 54, "frames": 1, "fps": 0 },
+    { "key": "guestbook", "image": "things/guestbook.png", "x": 320, "y": 320, "w": 34, "h": 60, "frames": 1, "fps": 0 }
+  ],
+  "spawn": { "x": 256, "y": 310, "dir": "up" },
+  "exit": [[7, 10], [8, 10]],
+  "interact": [
+    { "id": "frame-1", "label": "看看画框", "cells": [[2, 2], [3, 2]], "anchor": [96, 18] },
+    { "id": "frame-2", "label": "看看画框", "cells": [[5, 2]], "anchor": [176, 22] },
+    { "id": "plaque", "label": "读读门口的牌子", "cells": [[7, 2], [8, 2]], "anchor": [256, 28] },
+    { "id": "frame-3", "label": "看看画框", "cells": [[10, 2]], "anchor": [336, 22] },
+    { "id": "frame-4", "label": "看看画框", "cells": [[12, 2], [13, 2]], "anchor": [416, 18] },
+    { "id": "frame-5", "label": "看看画框", "cells": [[4, 7]], "anchor": [144, 194] },
+    { "id": "frame-6", "label": "看看画框", "cells": [[11, 7]], "anchor": [368, 194] },
+    { "id": "guestbook", "label": "翻翻留言簿", "cells": [[10, 9]], "anchor": [337, 256] }
+  ],
+  "seats": [
+    { "id": "bench-1", "x": 240, "y": 186, "dir": "up" },
+    { "id": "bench-2", "x": 272, "y": 186, "dir": "up" }
+  ],
+  "npcs": [],
+  "windows": [],
+  "lights": [
+    { "x": 96, "y": 72, "r": 90, "color": "#fff0c8" },
+    { "x": 176, "y": 72, "r": 70, "color": "#fff0c8" },
+    { "x": 336, "y": 72, "r": 70, "color": "#fff0c8" },
+    { "x": 416, "y": 72, "r": 90, "color": "#fff0c8" },
+    { "x": 256, "y": 224, "r": 170, "color": "#ffe6b0" }
+  ],
+  "floorType": "tile",
+  "music": "gallery"
+}

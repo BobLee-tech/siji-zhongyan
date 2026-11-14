@@ -1,0 +1,56 @@
+{
+  "id": "workshop",
+  "name": { "zh": "工坊", "en": "WORKSHOP" },
+  "w": 14,
+  "h": 10,
+  "floor": "floor.png",
+  "solid": [
+    "11111111111111",
+    "11111111111111",
+    "11111111111111",
+    "11111100000111",
+    "10000000000001",
+    "10000110000011",
+    "10001110011001",
+    "10000100011001",
+    "11100000000111",
+    "11111100111111"
+  ],
+  "things": [
+    { "key": "shelf", "image": "things/shelf.png", "x": 32, "y": 128, "w": 64, "h": 64, "frames": 1, "fps": 0 },
+    { "key": "workbench", "image": "things/workbench.png", "x": 96, "y": 128, "w": 64, "h": 64, "frames": 1, "fps": 0 },
+    { "key": "boxes", "image": "things/boxes.png", "x": 160, "y": 128, "w": 32, "h": 32, "frames": 1, "fps": 0 },
+    { "key": "net", "image": "things/net.png", "x": 352, "y": 128, "w": 64, "h": 54, "frames": 1, "fps": 0 },
+    { "key": "bench", "image": "things/bench.png", "x": 160, "y": 224, "w": 64, "h": 72, "frames": 1, "fps": 0 },
+    { "key": "stool-1", "image": "things/stool-1.png", "x": 128, "y": 220, "w": 32, "h": 28, "frames": 1, "fps": 0 },
+    { "key": "stool-2", "image": "things/stool-2.png", "x": 176, "y": 252, "w": 32, "h": 28, "frames": 1, "fps": 0 },
+    { "key": "rods", "image": "things/rods.png", "x": 32, "y": 288, "w": 64, "h": 72, "frames": 1, "fps": 0 },
+    { "key": "worktable", "image": "things/worktable.png", "x": 288, "y": 256, "w": 64, "h": 60, "frames": 1, "fps": 0 },
+    { "key": "surf", "image": "things/surf.png", "x": 352, "y": 288, "w": 64, "h": 46, "frames": 1, "fps": 0 },
+    { "key": "crates-2", "image": "things/crates-2.png", "x": 384, "y": 192, "w": 32, "h": 56, "frames": 1, "fps": 0 }
+  ],
+  "spawn": { "x": 224, "y": 278, "dir": "up" },
+  "exit": [[6, 9], [7, 9]],
+  "interact": [
+    { "id": "pegboard", "label": "看看工具墙", "cells": [[3, 3], [4, 3], [5, 3]], "anchor": [144, 18] },
+    { "id": "whiteboard", "label": "看看委托板", "cells": [[6, 2], [7, 2], [8, 2]], "anchor": [240, 20] },
+    { "id": "shelf", "label": "翻翻材料架", "cells": [[1, 3], [2, 3]], "anchor": [64, 60] },
+    { "id": "bench", "label": "试着装灯芯", "cells": [[5, 5], [6, 5], [5, 6], [6, 6]], "anchor": [192, 148] }
+  ],
+  "seats": [
+    { "id": "stool-1", "x": 144, "y": 222, "dir": "right" },
+    { "id": "stool-2", "x": 192, "y": 248, "dir": "up" }
+  ],
+  "npcs": [
+    { "id": "mentor", "x": 240, "y": 188, "dir": "left" }
+  ],
+  "windows": [
+    { "x": 328, "y": 32, "w": 42, "h": 26 }
+  ],
+  "lights": [
+    { "x": 192, "y": 140, "r": 120, "color": "#ffcf7a" },
+    { "x": 112, "y": 72, "r": 110, "color": "#ffe2a8" }
+  ],
+  "floorType": "tile",
+  "music": "workshop"
+}

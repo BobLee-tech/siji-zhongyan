@@ -1,0 +1,37 @@
+@import url('../v7/menu.css');
+@font-face{font-family:'Summer Hand';src:url('../../../fonts/long-cang-title-subset.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+.title-heading{left:50%;top:11.5%;transform:translateX(-50%);width:max-content;max-width:94vw;text-align:center}
+.title-heading .title-wordmark{font:400 168px/1.25 'Summer Hand','Kaiti SC','KaiTi',serif;letter-spacing:.1em;margin:0 -.1em 0 0;padding:0;white-space:nowrap;color:#fffdf0;text-shadow:0 2px 8px #4c75816e,0 0 24px #fff2c426;max-width:none}
+.title-wordmark::before,.title-wordmark::after{content:none}
+.title-menu{left:50%;bottom:7%;width:max-content;max-width:92%;transform:translateX(-50%);flex-direction:row;align-items:center;justify-content:center;gap:46px}
+.title-action,.title-action.primary{font-family:'Summer Hand','Kaiti SC','KaiTi',serif;letter-spacing:.1em;border:0;box-shadow:none;background:transparent;border-radius:0;margin:0;padding:7px 2px;color:#f7f6df;text-shadow:0 2px 7px #163e4ecc;white-space:nowrap;transition:color .2s,opacity .2s}
+.title-action{font-size:27px;line-height:36px;opacity:.84}
+.title-action.primary{font-size:38px;line-height:44px;opacity:1}
+.title-action.primary::before{content:'';position:absolute;left:-15px;top:50%;transform:translateY(-50%);width:3px;height:3px;border-radius:50%;background:#fff4ce;box-shadow:0 0 5px #fff0be73;opacity:.8}
+.title-action:hover,.title-action.primary:hover{color:#fffdf0;opacity:1}
+.title-action:hover::after,.title-action:focus-visible::after{content:none}
+.title-action:focus-visible{outline:none;text-decoration:underline;text-decoration-color:#eff7e9b3;text-decoration-thickness:1px;text-underline-offset:9px}
+.title-tools{top:4%;right:4%;gap:12px}
+.title-utility{border:0;background:transparent;opacity:.68;transition:opacity .2s}
+.title-utility:hover{background:transparent;border:0;opacity:1}
+.title-utility:focus-visible,.title-return:focus-visible{outline:1px solid #f5f6df;outline-offset:5px}
+.title-pause-symbol{height:12px;width:10px;border-left-width:3px;border-right-width:3px}
+.is-paused .title-pause-symbol{height:0;width:0;border-left-width:10px}
+.title-info-symbol{font-family:'Summer Hand',serif;font-size:24px}
+.title-return{border:0;background:transparent;color:#f7f6df;font:26px/36px 'Summer Hand','Kaiti SC',serif;padding:4px 8px;text-shadow:0 2px 6px #163e4eaa}
+.title-return:hover{background:transparent;border:0;color:white}
+.title-select{background:#143b4ca6}
+.title-select .welcome-card{filter:none}
+.title-select .paper{clip-path:none;border:1px solid #f8f1d5;border-radius:3px;background:#fff9e9ed;box-shadow:0 12px 40px #1237463d;color:#355762}
+.title-select .paper h2{font:40px/1.3 'Kaiti SC','KaiTi',serif;color:#426974;letter-spacing:.04em}
+.title-select .twins .twin{clip-path:none;border:1px solid #c6d6cc;background:#fffcf1b3;box-shadow:none;border-radius:2px}
+.title-select .twins .twin[aria-pressed=true]{border-color:#79a69d;background:#e8f0d9;box-shadow:inset 0 -2px #86aaa0}
+.title-select .btn{clip-path:none;border:1px solid #9bb8ad;border-radius:2px;background:#e0ead8;color:#365b65;box-shadow:none}
+.title-select .btn.is-quiet{background:transparent}
+@media(min-width:1800px){.title-heading .title-wordmark{font-size:192px}.title-menu{gap:58px;bottom:8%}.title-action.primary{font-size:42px}.title-action{font-size:30px}}
+@media(max-width:1100px){.title-heading .title-wordmark{font-size:140px}.title-menu{gap:32px}}
+@media(max-aspect-ratio:4/3){.title-heading{top:10%}.title-menu{left:50%;bottom:10%;width:260px;max-width:85%;flex-direction:column;gap:8px}.title-action,.title-action.primary{padding:5px 14px}.title-action.primary::before{left:0}.title-action.primary{line-height:42px}.title-action{line-height:32px}}
+@media(max-width:650px){.title-heading .title-wordmark{font-size:min(92px,22.3vw);letter-spacing:.02em;margin-right:-.02em}.title-heading{top:11%}.title-action.primary{font-size:34px}.title-action{font-size:27px}}
+@media(max-width:360px){.title-heading .title-wordmark{font-size:min(80px,22.3vw)}.title-action.primary{font-size:32px}.title-action{font-size:25px}}
+@media(max-height:550px) and (orientation:landscape){.title-heading{top:8%}.title-heading .title-wordmark{font-size:112px}.title-menu{bottom:5%;gap:30px}.title-action.primary{font-size:30px;line-height:36px}.title-action{font-size:24px;line-height:32px}}
+@media(prefers-reduced-motion:reduce){.title-action,.title-utility{transition:none}}

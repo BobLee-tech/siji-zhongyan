@@ -1,0 +1,62 @@
+{
+  "title": "四季终焉",
+  "version": 4,
+  "durationSeconds": 24,
+  "native": [
+    480,
+    270
+  ],
+  "motionFps": 12,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24
+  },
+  "gif": {
+    "width": 960,
+    "height": 540,
+    "fps": 12
+  },
+  "colors": 192,
+  "dither": "none",
+  "wholeSceneWarp": false,
+  "layered": true,
+  "boundaryMeanAbsoluteError": 0,
+  "stablePier": true,
+  "stableAuriFeet": true,
+  "stableNoxFeet": true,
+  "parts": [
+    {
+      "name": "hair ends",
+      "pixels": 314,
+      "keyPoses": 5,
+      "uniquePoses": 5
+    },
+    {
+      "name": "skirt free hem",
+      "pixels": 152,
+      "keyPoses": 5,
+      "uniquePoses": 5
+    },
+    {
+      "name": "ribbon tail",
+      "pixels": 29,
+      "keyPoses": 5,
+      "uniquePoses": 5
+    },
+    {
+      "name": "Nox loose forelock",
+      "pixels": 11,
+      "keyPoses": 5,
+      "uniquePoses": 1
+    }
+  ],
+  "cloudBanks": [
+    5743,
+    2397,
+    2058,
+    3578
+  ],
+  "rippleRuns": 106,
+  "rebuild": "node tools/title-art/prepare-sunset-v4.mjs && node tools/title-art/build-sunset-v4.mjs"
+}

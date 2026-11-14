@@ -1,0 +1,29 @@
+{
+  "version": 5,
+  "title": "四季终焉",
+  "native": [
+    640,
+    360
+  ],
+  "duration": 24,
+  "fps": 12,
+  "colors": 96,
+  "liveCanvas": true,
+  "integerMotion": true,
+  "wholeSceneWarp": false,
+  "seamError": 0,
+  "stableFeetAndPier": true,
+  "movingPixelsAtGust": 4602,
+  "assets": {
+    "width": 640,
+    "height": 360,
+    "colors": 96,
+    "layers": {
+      "clouds": 33782,
+      "hair": 476,
+      "hem": 135,
+      "sail": 137,
+      "water": 1578
+    }
+  }
+}

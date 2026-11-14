@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#22344f" />
+    <title>四季终焉</title>
+    <meta name="description" content="四季终焉：一座小岛，一年的四季。走走、坐下来看海，和岛上的人一起把一年过满。" />
+    <!-- 像素字：界面的按钮、标题、对话和气泡都用它，先开始下载 -->
+    <link rel="preload" href="./assets/fonts/fusion-pixel-12px-proportional-zh_hans.otf.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="./assets/title-art/loop/v8/menu.css" />
+    <link rel="preload" href="./assets/fonts/long-cang-title-subset.ttf" as="font" type="font/ttf" crossorigin />
+    <script type="module" crossorigin src="./assets/game-Bm9O40m_.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/preload-helper-DIbePYYx.js">
+    <link rel="modulepreload" crossorigin href="./assets/character-art-CwEYx-Ju.js">
+    <link rel="stylesheet" crossorigin href="./assets/game-ljxqGN8F.css">
+  </head>
+  <body>
+    <!-- 顶栏是游戏的菜单：岁时记、背包、旅伴、设置。键盘、手柄都能走完（方向键移焦点，Esc 叫出菜单），接线在 src/ui/menu.ts -->
+    <header class="bar">
+      <span class="brand" aria-hidden="true"><span class="brand-name">四季终焉</span></span>
+      <nav class="menu" id="menu" aria-label="游戏菜单">
+        <span class="menu-hint" aria-hidden="true"><kbd>Esc</kbd>菜单</span>
+        <button type="button" data-menu="almanac" aria-expanded="false"><kbd>J</kbd><b>岁时记</b></button>
+        <button type="button" data-menu="bag" aria-expanded="false"><kbd>B</kbd><b>背包</b><em></em></button>
+        <button type="button" data-menu="companion" aria-expanded="false"><b>旅伴</b></button>
+        <button type="button" data-menu="settings" aria-expanded="false"><b>设置</b></button>
+      </nav>
+    </header>
+
+    <main>
+      <div id="game" role="application" aria-label="岛上。方向键或 WASD 走动，空格或 E 互动，B 打开背包，J 打开岁时记，Esc 叫出菜单。">
+        <p class="map-status" id="map-status">岛上加载中…</p>
+      </div>
+      <!-- 从下往上：跟着地图走的气泡、任务卡和时钟、面板与对话框 -->
+      <div id="world"></div>
+      <div id="hud"></div>
+      <div id="overlay"></div>
+    </main>
+
+  </body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "version": 3,
+  "durationSeconds": 18,
+  "native": [
+    640,
+    360
+  ],
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24
+  },
+  "gif": {
+    "width": 1280,
+    "height": 720,
+    "fps": 12
+  },
+  "colors": 256,
+  "dither": "none",
+  "wholeSceneWarp": false,
+  "layered": true,
+  "boundaryMeanAbsoluteError": 0,
+  "stablePier": true,
+  "stableAuriFeet": true,
+  "stableNoxFeet": true,
+  "parts": [
+    {
+      "name": "hair ends",
+      "pixels": 551,
+      "keyPoses": 9
+    },
+    {
+      "name": "skirt free hem",
+      "pixels": 272,
+      "keyPoses": 9
+    },
+    {
+      "name": "ribbon tail",
+      "pixels": 52,
+      "keyPoses": 9
+    },
+    {
+      "name": "Nox loose forelock",
+      "pixels": 19,
+      "keyPoses": 9
+    }
+  ],
+  "cloudBanks": [
+    10086,
+    4199,
+    3526,
+    5942
+  ],
+  "rippleRuns": 138,
+  "rebuild": "node tools/title-art/prepare-sunset-v3.mjs && node tools/title-art/build-sunset-v3.mjs"
+}

@@ -1,0 +1,14 @@
+@import url('../v6/menu.css');
+.title-heading{--wordmark-width:580px;top:11%;left:6.5%}
+.title-heading .title-wordmark{display:block;margin:0;padding:0;font:inherit;line-height:0;letter-spacing:0;text-shadow:none;color:inherit;max-width:87vw}
+.title-wordmark::before,.title-wordmark::after{content:none}
+.title-wordmark img{display:block;width:var(--wordmark-width);max-width:100%;height:auto;image-rendering:pixelated;filter:none}
+.title-wordmark .title-text{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.title-action.primary{color:#fff7dc;border-color:#deeee65c;text-shadow:0 2px #27525e}
+.title-action.primary:before,.title-action:hover:after,.title-action:focus-visible:after{background:#e4f2e5;box-shadow:none}
+.title-action:focus-visible,.title-utility:focus-visible,.title-return:focus-visible{outline-color:#e9f5e8}
+@media(min-width:1800px){.title-heading{--wordmark-width:696px}}
+@media(max-width:1100px){.title-heading{--wordmark-width:464px}}
+@media(max-width:650px){.title-heading{--wordmark-width:348px}}
+@media(max-width:360px){.title-heading{--wordmark-width:290px}}
+@media(max-height:550px) and (orientation:landscape){.title-heading{--wordmark-width:348px;top:9%}}
