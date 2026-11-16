@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "characterCount": 19,
+  "characterCount": 20,
   "variantCount": 1,
   "frame": [
     64,
@@ -5057,6 +5057,262 @@
             "gameAtlas": "native/full/mentor-winter.png",
             "worldAtlas": "native/world/mentor-winter.png",
             "frameDirectory": "native/frames/mentor/winter",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "maki",
+      "name": "槙爷",
+      "role": "送灯坂守墓人／汐见座放映师",
+      "detail": "约七十岁，稍瘦、微驼。褪色靛蓝头巾一直戴着，白短发从鬓角露出，带点白胡茬；卷袖灰蓝工衣、炭灰旧围裙、宽工作裤和分趾鞋。和钓鱼大叔的红帽大胡子分开。",
+      "colors": [
+        "#5f7189",
+        "#8d9ba0",
+        "#5f5866"
+      ],
+      "kind": "resident",
+      "fullbody": "poses/maki-front.png",
+      "poses": [
+        "poses/maki-front.png",
+        "poses/maki-left.png",
+        "poses/maki-back.png",
+        "poses/maki-right.png",
+        "poses/maki-action-0.png",
+        "poses/maki-action-1.png",
+        "poses/maki-action-2.png",
+        "poses/maki-action-3.png"
+      ],
+      "portraits": {
+        "neutral": "portraits/maki-neutral.png",
+        "warm": "portraits/maki-warm.png",
+        "thoughtful": "portraits/maki-thoughtful.png",
+        "weary": "portraits/maki-weary.png"
+      },
+      "source": "source/maki-atlas.png",
+      "actionType": "story-key-poses",
+      "actions": [
+        "提木桶和水勺",
+        "蹲下点石灯笼",
+        "为放映机穿胶片",
+        "坐矮凳捧锡杯"
+      ],
+      "lines": [
+        "桶用完倒扣。"
+      ],
+      "dialogue": {
+        "neutral": "桶用完倒扣。",
+        "warm": "它们又不乱跑。",
+        "thoughtful": "放着吧。蚂蚁先喝，也算有人喝了。",
+        "weary": "有时候一个，有时候没有。机器一转，我就当满座。"
+      },
+      "poseLabels": [
+        "正面",
+        "朝左",
+        "背面",
+        "朝右",
+        "提木桶和水勺",
+        "蹲下点石灯笼",
+        "为放映机穿胶片",
+        "坐矮凳捧锡杯"
+      ],
+      "directions": [
+        "down",
+        "left",
+        "up",
+        "right"
+      ],
+      "wardrobe": {
+        "spring": {
+          "name": "春装",
+          "note": "工衣外加一件灰白薄工衫；头巾、围裙不变。",
+          "fullbody": "poses/maki-front.png",
+          "portrait": "portraits/maki-neutral.png",
+          "source": "source/maki-atlas.png",
+          "locomotion": {
+            "sheet": "native/maki-spring.png",
+            "gameAtlas": "native/full/maki-spring.png",
+            "worldAtlas": "native/world/maki-spring.png",
+            "frameDirectory": "native/frames/maki/spring",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "summer": {
+          "name": "夏装",
+          "note": "卷袖灰蓝工衣，对应角色板。",
+          "fullbody": "poses/maki-front.png",
+          "portrait": "portraits/maki-neutral.png",
+          "source": "source/maki-atlas.png",
+          "locomotion": {
+            "sheet": "native/maki-summer.png",
+            "gameAtlas": "native/full/maki-summer.png",
+            "worldAtlas": "native/world/maki-summer.png",
+            "frameDirectory": "native/frames/maki/summer",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "autumn": {
+          "name": "秋装",
+          "note": "工衣外一件苔绿针织坎肩，穿在围裙下面。",
+          "fullbody": "poses/maki-front.png",
+          "portrait": "portraits/maki-neutral.png",
+          "source": "source/maki-atlas.png",
+          "locomotion": {
+            "sheet": "native/maki-autumn.png",
+            "gameAtlas": "native/full/maki-autumn.png",
+            "worldAtlas": "native/world/maki-autumn.png",
+            "frameDirectory": "native/frames/maki/autumn",
+            "frameSize": [
+              32,
+              64
+            ],
+            "anchor": [
+              16,
+              64
+            ],
+            "columns": 6,
+            "directions": [
+              "down",
+              "left",
+              "right",
+              "up"
+            ],
+            "walk": {
+              "rows": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "frames": 6,
+              "fps": 10
+            },
+            "idle": {
+              "rows": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "frames": 6,
+              "fps": 6
+            }
+          }
+        },
+        "winter": {
+          "name": "冬装",
+          "note": "旧棕棉坎肩加灰围脖；头巾照戴。",
+          "fullbody": "poses/maki-front.png",
+          "portrait": "portraits/maki-neutral.png",
+          "source": "source/maki-atlas.png",
+          "locomotion": {
+            "sheet": "native/maki-winter.png",
+            "gameAtlas": "native/full/maki-winter.png",
+            "worldAtlas": "native/world/maki-winter.png",
+            "frameDirectory": "native/frames/maki/winter",
             "frameSize": [
               32,
               64

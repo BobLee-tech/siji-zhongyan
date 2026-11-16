@@ -1,0 +1,14 @@
+{
+ "w": 480,
+ "h": 270,
+ "bg": {
+  "day": "day.png",
+  "dusk": "dusk.png",
+  "blue": "blue.png",
+  "night": "night.png"
+ },
+ "fg": "fg.png",
+ "glint": null,
+ "beacon": null,
+ "from": "assets-source/gen/relief-landmarks-2026-11-16/vistas/westcliff-vista（480×150，上面补了 120 行天）"
+}

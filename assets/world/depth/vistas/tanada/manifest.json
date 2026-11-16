@@ -1,0 +1,14 @@
+{
+ "w": 480,
+ "h": 270,
+ "bg": {
+  "day": "day.png",
+  "dusk": "dusk.png",
+  "blue": "blue.png",
+  "night": "night.png"
+ },
+ "fg": "fg.png",
+ "glint": null,
+ "beacon": null,
+ "source": "assets-source/gen/relief-landmarks-2026-11-16/vistas/tanada-vista（480×150，上下各补 60 画素的暗边）"
+}

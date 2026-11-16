@@ -1,0 +1,11 @@
+{
+ "w": 480,
+ "h": 270,
+ "bg": {
+  "screening": "screening.png",
+  "lights": "lights.png"
+ },
+ "fg": "fg.png",
+ "glint": null,
+ "beacon": null
+}

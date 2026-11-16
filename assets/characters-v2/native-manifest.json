@@ -4709,6 +4709,172 @@
           "fps": 4
         }
       }
+    },
+    "maki": {
+      "spring": {
+        "sheet": "native/maki-spring.png",
+        "gameAtlas": "native/full/maki-spring.png",
+        "worldAtlas": "native/world/maki-spring.png",
+        "frameDirectory": "native/frames/maki/spring",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      },
+      "summer": {
+        "sheet": "native/maki-summer.png",
+        "gameAtlas": "native/full/maki-summer.png",
+        "worldAtlas": "native/world/maki-summer.png",
+        "frameDirectory": "native/frames/maki/summer",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      },
+      "autumn": {
+        "sheet": "native/maki-autumn.png",
+        "gameAtlas": "native/full/maki-autumn.png",
+        "worldAtlas": "native/world/maki-autumn.png",
+        "frameDirectory": "native/frames/maki/autumn",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      },
+      "winter": {
+        "sheet": "native/maki-winter.png",
+        "gameAtlas": "native/full/maki-winter.png",
+        "worldAtlas": "native/world/maki-winter.png",
+        "frameDirectory": "native/frames/maki/winter",
+        "frameSize": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "columns": 6,
+        "directions": [
+          "down",
+          "left",
+          "right",
+          "up"
+        ],
+        "walk": {
+          "rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": 6,
+          "fps": 10
+        },
+        "idle": {
+          "rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": 6,
+          "fps": 6
+        }
+      }
     }
   }
 }

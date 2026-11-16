@@ -1,0 +1,13 @@
+{
+ "w": 480,
+ "h": 270,
+ "bg": {
+  "night": "night.png",
+  "blue": "blue.png",
+  "dusk": "dusk.png",
+  "day": "day.png"
+ },
+ "fg": "fg.png",
+ "glint": null,
+ "beacon": null
+}

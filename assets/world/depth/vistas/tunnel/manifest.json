@@ -1,0 +1,11 @@
+{
+ "w": 480,
+ "h": 270,
+ "bg": {
+  "day": "day.png",
+  "dusk": "dusk.png"
+ },
+ "fg": "fg.png",
+ "glint": null,
+ "beacon": null
+}
